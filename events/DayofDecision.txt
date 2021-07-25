@@ -1,0 +1,223 @@
+﻿add_namespace = DayofDecision
+
+country_event = { # GER  Economic Recovery Policy
+	id = DayofDecision.2003136
+	title = DayofDecision.2003136.title
+	desc = DayofDecision.2003136.desc
+	#picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	option = {
+		set_global_flag = DayofDecision.2003136
+		name = DayofDecision.2003136.a
+		ai_chance = {
+			base = 100
+		}
+		add_ideas = industrial_modifier_5
+		custom_effect_tooltip = INDUSTRIAL_MODIFIER_5_TT
+		add_to_variable = { dissent = -5 }
+		custom_effect_tooltip = DISSENT_-5_TT
+		add_to_variable = { money = -500 }
+		custom_effect_tooltip = MONEY_-500_TT
+		add_to_variable = { free_market = -1 }
+		custom_effect_tooltip = FREE_MARKET_-1_TT
+		add_to_variable = { defense_lobby = -1 }
+		custom_effect_tooltip = DEFENSE_LOBBY_-1_TT
+	}
+
+	option = {
+		name = DayofDecision.2003136.b
+		activate_decision = DayofDecision_2003136
+	}
+}
+
+country_event = { # GER  General Elections
+	id = DayofDecision.2003130
+	title = DayofDecision.2003130.title
+	desc = DayofDecision.2003130.desc
+	#picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	option = {
+		name = DayofDecision.2003130.a
+		ai_chance = {
+			base = 100
+		}
+		add_to_variable = { dissent = -10 }
+		custom_effect_tooltip = DISSENT_-10_TT
+		add_to_variable = { political_left = -1 }
+		custom_effect_tooltip = POLITICAL_LEFT_-1_TT
+	}
+
+	option = {
+		set_global_flag = DayofDecision.2003130
+		name = DayofDecision.2003130.b
+		leave_faction = yes
+		set_cosmetic_tag = DDR_neutrality
+		add_to_variable = { political_left = 5 }
+		custom_effect_tooltip = POLITICAL_LEFT_5_TT
+		add_to_variable = { democratic = -2 }
+		custom_effect_tooltip = DEMOCRATIC_-2_TT
+		d_do_cabinet_reset = yes
+		set_variable = { cabinet^0 = global.ALIAS_625041 } # Ernst Toller
+		custom_effect_tooltip = "Ernst Toller becomes the Head of State"
+		set_variable = { cabinet^1 = global.ALIAS_625036 } # Ernst Thalmann
+		custom_effect_tooltip = "Ernst Thalmann becomes the Head of Government"
+		set_variable = { cabinet^2 = global.ALIAS_625038 } # Helmut Herzfelde
+		custom_effect_tooltip = "Helmut Herzfeld becomes the Foreign Minister"
+		set_variable = { cabinet^3 = global.ALIAS_625039 } # Willie Munzenberg
+		custom_effect_tooltip = "Willie Munzenberg becomes the Armaments Minister"
+		set_variable = { cabinet^4 = global.ALIAS_625045 } # Arkadi Maslow
+		custom_effect_tooltip = "Arkada Maslov becomes the Minister of Security"
+		set_variable = { cabinet^5 = global.ALIAS_625040 } # Erich Weinert 
+		custom_effect_tooltip = "Erich Weinert becomes the Head of Intelligence"
+		set_variable = { cabinet^6 = global.ALIAS_625026 } # Erich Weinert
+		custom_effect_tooltip = "Erich Weinert becomes the Chief of Staff"
+		set_variable = { cabinet^7 = global.ALIAS_625029 } # Otto Korfes
+		custom_effect_tooltip = "Otto Korfes becomes the Chief of the Army"
+		set_variable = { cabinet^8 = global.ALIAS_625065 } # Karl Artelt
+		custom_effect_tooltip = "Karl Artelt becomes the Chief of the Navy"
+		set_variable = { cabinet^9 = global.ALIAS_625032 } # Franz Nowak
+		custom_effect_tooltip = "Franz Nowak becomes the Chief of the Airforce"
+		add_to_array = { possible_headofstate = global.ALIAS_625001 }
+		add_to_array = { possible_headofstate = global.ALIAS_625034 }
+		add_to_array = { possible_headofstate = global.ALIAS_625035 }
+		add_to_array = { possible_headofstate = global.ALIAS_625041 }
+		add_to_array = { possible_headofstate = global.ALIAS_625062 }
+		add_to_array = { possible_headofgovernment = global.ALIAS_625002 }
+		add_to_array = { possible_headofgovernment = global.ALIAS_625036 }
+		add_to_array = { possible_headofgovernment = global.ALIAS_625037 }
+		add_to_array = { possible_headofgovernment = global.ALIAS_625042 }
+		add_to_array = { possible_headofgovernment = global.ALIAS_625056 }
+		add_to_array = { possible_headofgovernment = global.ALIAS_625059 }
+		add_to_array = { possible_foreignminister = global.ALIAS_625003 }
+		add_to_array = { possible_foreignminister = global.ALIAS_625011 }
+		add_to_array = { possible_foreignminister = global.ALIAS_625012 }
+		add_to_array = { possible_foreignminister = global.ALIAS_625038 }
+		add_to_array = { possible_foreignminister = global.ALIAS_625043 }
+		add_to_array = { possible_foreignminister = global.ALIAS_625058 }
+		add_to_array = { possible_ministerofarmament = global.ALIAS_625004 }
+		add_to_array = { possible_ministerofarmament = global.ALIAS_625013 }
+		add_to_array = { possible_ministerofarmament = global.ALIAS_625014 }
+		add_to_array = { possible_ministerofarmament = global.ALIAS_625015 }
+		add_to_array = { possible_ministerofarmament = global.ALIAS_625016 }
+		add_to_array = { possible_ministerofarmament = global.ALIAS_625039 }
+		add_to_array = { possible_ministerofarmament = global.ALIAS_625044 }
+		add_to_array = { possible_ministerofarmament = global.ALIAS_625064 }
+		add_to_array = { possible_ministerofarmament = global.ALIAS_625067 }
+		add_to_array = { possible_ministerofsecurity = global.ALIAS_625005 }
+		add_to_array = { possible_ministerofsecurity = global.ALIAS_625017 }
+		add_to_array = { possible_ministerofsecurity = global.ALIAS_625018 }
+		add_to_array = { possible_ministerofsecurity = global.ALIAS_625019 }
+		add_to_array = { possible_ministerofsecurity = global.ALIAS_625020 }
+		add_to_array = { possible_ministerofsecurity = global.ALIAS_625021 }
+		add_to_array = { possible_ministerofsecurity = global.ALIAS_625045 }
+		add_to_array = { possible_ministerofsecurity = global.ALIAS_625057 }
+		add_to_array = { possible_ministerofsecurity = global.ALIAS_625060 }
+		add_to_array = { possible_ministerofsecurity = global.ALIAS_625066 }
+		add_to_array = { possible_headofmilitaryintelligence = global.ALIAS_625006 }
+		add_to_array = { possible_headofmilitaryintelligence = global.ALIAS_625022 }
+		add_to_array = { possible_headofmilitaryintelligence = global.ALIAS_625023 }
+		add_to_array = { possible_headofmilitaryintelligence = global.ALIAS_625024 }
+		add_to_array = { possible_headofmilitaryintelligence = global.ALIAS_625025 }
+		add_to_array = { possible_headofmilitaryintelligence = global.ALIAS_625040 }
+		add_to_array = { possible_headofmilitaryintelligence = global.ALIAS_625046 }
+		add_to_array = { possible_headofmilitaryintelligence = global.ALIAS_625061 }
+		add_to_array = { possible_headofmilitaryintelligence = global.ALIAS_625065 }
+		add_to_array = { possible_chiefofstaff = global.ALIAS_625007 }
+		add_to_array = { possible_chiefofstaff = global.ALIAS_625026 }
+		add_to_array = { possible_chiefofstaff = global.ALIAS_625027 }
+		add_to_array = { possible_chiefofstaff = global.ALIAS_625028 }
+		add_to_array = { possible_chiefofstaff = global.ALIAS_625063 }
+		add_to_array = { possible_chiefofarmy = global.ALIAS_625008 }
+		add_to_array = { possible_chiefofarmy = global.ALIAS_625029 }
+		add_to_array = { possible_chiefofarmy = global.ALIAS_625030 }
+		add_to_array = { possible_chiefofnavy = global.ALIAS_625009 }
+		add_to_array = { possible_chiefofnavy = global.ALIAS_625031 }
+		add_to_array = { possible_chiefofnavy = global.ALIAS_625068 }
+		add_to_array = { possible_chiefofairforce = global.ALIAS_625010 }
+		add_to_array = { possible_chiefofairforce = global.ALIAS_625032 }
+		add_to_array = { possible_chiefofairforce = global.ALIAS_625033 }
+		add_to_variable = { dissent = 40 }
+		custom_effect_tooltip = DISSENT_40_TT
+		add_to_array = { tech_teams = 625013 } #AEG
+		add_to_array = { tech_teams = 625014 } #Krupp
+		add_to_array = { tech_teams = 625015 } #I.G. Farben
+		add_to_array = { tech_teams = 625016 } #Siemens & Halske
+		add_to_array = { tech_teams = 625017 } #Werner Heisenberg
+		add_to_array = { tech_teams = 625018 } #Konrad Zuse
+		add_to_array = { tech_teams = 625019 } #Mauser Werke
+		add_to_array = { tech_teams = 625020 } #MAN
+		add_to_array = { tech_teams = 625021 } #Opel
+		add_to_array = { tech_teams = 625022 } #Rheinmetall
+		add_to_array = { tech_teams = 625023 } #Volkswagen
+		add_to_array = { tech_teams = 625024 } #Volksmarinewerft
+		add_to_array = { tech_teams = 625025 } #Blohm & Voss
+		add_to_array = { tech_teams = 625026 } #Luftschiffbau Zeppelin
+		add_to_array = { tech_teams = 625027 } #Gothaer Waggonfabrik
+		add_to_array = { tech_teams = 625028 } #Messerschmitt
+		add_to_array = { tech_teams = 625029 } #Focke-Wulf
+		add_to_array = { tech_teams = 625030 } #Arado
+		add_to_array = { tech_teams = 625031 } #Adolf Galland
+		add_to_array = { tech_teams = 625032 } #J�ger Kampfschule
+		add_state_core = 86
+		add_state_core = 85
+		add_state_core = 762
+		add_state_core = 188
+
+		var:GER.revolters = {
+			set_state_owner = 52
+			declare_war_on = {
+				target = GER
+				type = civil_war
+			}
+			set_state_controller = 52
+
+			GER = {
+				set_province_controller = 708
+				set_province_controller = 9666
+				set_province_controller = 11638
+			}
+
+			set_province_controller = 6725
+			set_province_controller = 9515
+			set_province_controller = 9581
+			set_province_controller = 561
+			set_province_controller = 11528
+			set_province_controller = 11544
+			set_province_controller = 9572
+			set_province_controller = 9557
+			set_province_controller = 11417
+			# revolt in 692 692 11544 11653
+		}
+	}
+}
+
+country_event = { # GER  Prohibit Weimar Flag
+	id = DayofDecision.2003131
+	title = DayofDecision.2003131.title
+	desc = DayofDecision.2003131.desc
+	#picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	option = {
+		set_global_flag = DayofDecision.2003131
+		name = DayofDecision.2003131.a
+		ai_chance = {
+			base = 100
+		}
+		hidden_effect = {
+			set_cosmetic_tag = GER_IMPERIAL_FLAG_neutrality
+		}
+		custom_effect_tooltip = "Germany adopts the Imperial Flag"
+		add_to_variable = { dissent = -1 }
+		custom_effect_tooltip = DISSENT_-1_TT
+		add_to_variable = { freedom = -1 }
+		custom_effect_tooltip = FREEDOM_-1_TT
+	}
+
+	option = {
+		name = DayofDecision.2003131.b
+		activate_decision = DayofDecision_2003131
+	}
+}

@@ -1,0 +1,268 @@
+guiTypes = {
+	containerWindowType = {
+		name = "DHCW_Politics_scripted_gui"
+		size = { width = 100% height = 100% }
+		position = { x = 0 y = 44 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+
+		gridBoxType = {
+			name = "Cabinet_Grid"
+			position = {
+				x = 129
+				y = 0
+			}
+			slotsize = { width = 259 height = 90 }
+			max_slots_horizontal = 2
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_Cabinet_Entry"
+		size = { width = 259 height = 90 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+
+		buttonType = {
+			name = "minister_gfx"
+			quadTextureSprite = GFX_minister_unknown
+			centerposition = yes
+			position = { x = 32 y = 45 }
+		}
+
+		instantTextBoxType = {
+			name = "minister_title"
+			font = "hoi_20bs"
+			text = "[get_minister_title]"
+			position = { x = 69 y = 4 }
+		}
+
+		instantTextBoxType = {
+			name = "minister_name"
+			font = "hoi_18b"
+			text = "[get_minister_name]"
+			position = { x = 69 y = 24 }
+			text_color_code = Y
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_headofstate"
+		position = { x = 542 y = 122 }
+		size = { width = 550 height = 392 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		verticalScrollbar = "right_vertical_slider"
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+		gridBoxType = {
+			name = possible_ministers
+			position = { x = 129 y = 0 }
+			max_slots_horizontal = 2
+			slotsize = { width = 259 height = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_headofgovernment"
+		position = { x = 542 y = 122 }
+		size = { width = 550 height = 392 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		verticalScrollbar = "right_vertical_slider"
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+		gridBoxType = {
+			name = possible_ministers
+			position = { x = 129 y = 0 }
+			max_slots_horizontal = 2
+			slotsize = { width = 259 height = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_foreignminister"
+		position = { x = 542 y = 122 }
+		size = { width = 550 height = 392 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		verticalScrollbar = "right_vertical_slider"
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+		gridBoxType = {
+			name = possible_ministers
+			position = { x = 129 y = 0 }
+			max_slots_horizontal = 2
+			slotsize = { width = 259 height = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_ministerofarmament"
+		position = { x = 542 y = 122 }
+		size = { width = 550 height = 392 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		verticalScrollbar = "right_vertical_slider"
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+		gridBoxType = {
+			name = possible_ministers
+			position = { x = 129 y = 0 }
+			max_slots_horizontal = 2
+			slotsize = { width = 259 height = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_ministerofsecurity"
+		position = { x = 542 y = 122 }
+		size = { width = 550 height = 392 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		verticalScrollbar = "right_vertical_slider"
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+		gridBoxType = {
+			name = possible_ministers
+			position = { x = 129 y = 0 }
+			max_slots_horizontal = 2
+			slotsize = { width = 259 height = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_headofmilitaryintelligence"
+		position = { x = 542 y = 122 }
+		size = { width = 550 height = 392 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		verticalScrollbar = "right_vertical_slider"
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+		gridBoxType = {
+			name = possible_ministers
+			position = { x = 129 y = 0 }
+			max_slots_horizontal = 2
+			slotsize = { width = 259 height = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_chiefofstaff"
+		position = { x = 542 y = 122 }
+		size = { width = 550 height = 392 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		verticalScrollbar = "right_vertical_slider"
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+		gridBoxType = {
+			name = possible_ministers
+			position = { x = 129 y = 0 }
+			max_slots_horizontal = 2
+			slotsize = { width = 259 height = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_chiefofairforce"
+		position = { x = 542 y = 122 }
+		size = { width = 550 height = 392 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		verticalScrollbar = "right_vertical_slider"
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+		gridBoxType = {
+			name = possible_ministers
+			position = { x = 129 y = 0 }
+			max_slots_horizontal = 2
+			slotsize = { width = 259 height = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_chiefofarmy"
+		position = { x = 542 y = 122 }
+		size = { width = 550 height = 392 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		verticalScrollbar = "right_vertical_slider"
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+		gridBoxType = {
+			name = possible_ministers
+			position = { x = 129 y = 0 }
+			max_slots_horizontal = 2
+			slotsize = { width = 259 height = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_chiefofnavy"
+		position = { x = 542 y = 122 }
+		size = { width = 550 height = 392 }
+		margin = { top = 16 left = 16 bottom = 16 right = 16 }
+		verticalScrollbar = "right_vertical_slider"
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+		gridBoxType = {
+			name = possible_ministers
+			position = { x = 129 y = 0 }
+			max_slots_horizontal = 2
+			slotsize = { width = 259 height = 90 }
+		}
+	}
+
+	containerWindowType = {
+		name = "DHCW_Politics_Select_Entry"
+		size = { width = 259 height = 90 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_small_small"
+		}
+
+		iconType = {
+			name = "minister_gfx"
+			quadTextureSprite = GFX_minister_unknown
+			centerposition = yes
+			position = { x = 32 y = 45 }
+		}
+
+		instantTextBoxType = {
+			name = "minister_name"
+			font = "hoi_20bs"
+			text = "[get_minister_name]"
+			position = { x = 69 y = 4 }
+			text_color_code = Y
+		}
+
+		buttonType = {
+			name = "minister_select"
+			spriteType = "GFX_division_designer_button"
+			position = { x = 76 y = 36 }
+			buttonFont = "hoi_20bs"
+			buttonText = "Select"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+decisions_category = {
+	DayofDecision_2003136 = {
+		allowed = { tag = GER }
+		visible = {
+			OR = {
+				check_variable = { cabinet^0 = global.ALIAS_1 }
+				check_variable = { cabinet^1 = global.ALIAS_22 }
+			}
+			date < 1935.12.30
+		}
+		available = {
+			check_variable = { money > 499 }
+			custom_trigger_tooltip = {
+				tooltip = "Has at least 500 Money"
+			}
+		}
+		fire_only_once = yes
+
+		complete_effect = {
+			country_event = { id = DayofDecision.2003136 }
+		}
+	}
+	DayofDecision_2003131 = {
+		allowed = { tag = GER }
+		visible = {
+			OR = {
+				check_variable = { cabinet^0 = global.ALIAS_1 }
+				check_variable = { cabinet^1 = global.ALIAS_22 }
+			}
+		}
+		available = {
+		}
+		fire_only_once = yes
+
+		complete_effect = {
+			country_event = { id = DayofDecision.2003131 }
+		}
+	}
+}

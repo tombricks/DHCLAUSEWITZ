@@ -1,0 +1,194 @@
+scripted_gui = {
+	DHCW_Politics_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_scripted_gui"
+		parent_window_token = politics_tab
+
+		properties = {
+			minister_gfx = {
+				image = "GFX_MINISTER_[?v]"
+			}
+		}
+
+		dynamic_lists = {
+			Cabinet_Grid = {
+				array = cabinet
+				entry_container = DHCW_Politics_Cabinet_Entry
+			}
+		}
+
+		effects = {
+			minister_gfx_click = {
+				if = {
+					limit = {
+						check_variable = { minister_selection = i }
+					}
+					set_variable = { minister_selection = -1 }
+					else = {
+						set_variable = { minister_selection = i }
+					}
+				}
+			}
+		}
+	}
+
+	DHCW_Politics_headofstate_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_headofstate"
+		visible = { check_variable = { minister_selection = 0 } }
+		properties = { minister_gfx = { image = "GFX_MINISTER_[?v]" } }
+
+		dynamic_lists = {
+			possible_ministers = {
+				array = possible_headofstate
+				entry_container = DHCW_Politics_Select_Entry
+			}
+		}
+
+		effects = { minister_select_click = { set_variable = { cabinet^minister_selection = v } } }
+	}
+
+	DHCW_Politics_headofgovernment_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_headofgovernment"
+		visible = { check_variable = { minister_selection = 1 } }
+		properties = { minister_gfx = { image = "GFX_MINISTER_[?v]" } }
+
+		dynamic_lists = {
+			possible_ministers = {
+				array = possible_headofgovernment
+				entry_container = DHCW_Politics_Select_Entry
+			}
+		}
+
+		effects = { minister_select_click = { set_variable = { cabinet^minister_selection = v } } }
+	}
+
+	DHCW_Politics_foreignminister_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_foreignminister"
+		visible = { check_variable = { minister_selection = 2 } }
+		properties = { minister_gfx = { image = "GFX_MINISTER_[?v]" } }
+
+		dynamic_lists = {
+			possible_ministers = {
+				array = possible_foreignminister
+				entry_container = DHCW_Politics_Select_Entry
+			}
+		}
+
+		effects = { minister_select_click = { set_variable = { cabinet^minister_selection = v } } }
+	}
+
+	DHCW_Politics_ministerofarmament_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_ministerofarmament"
+		visible = { check_variable = { minister_selection = 3 } }
+		properties = { minister_gfx = { image = "GFX_MINISTER_[?v]" } }
+
+		dynamic_lists = {
+			possible_ministers = {
+				array = possible_ministerofarmament
+				entry_container = DHCW_Politics_Select_Entry
+			}
+		}
+
+		effects = { minister_select_click = { set_variable = { cabinet^minister_selection = v } } }
+	}
+
+	DHCW_Politics_ministerofsecurity_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_ministerofsecurity"
+		visible = { check_variable = { minister_selection = 4 } }
+		properties = { minister_gfx = { image = "GFX_MINISTER_[?v]" } }
+
+		dynamic_lists = {
+			possible_ministers = {
+				array = possible_ministerofsecurity
+				entry_container = DHCW_Politics_Select_Entry
+			}
+		}
+
+		effects = { minister_select_click = { set_variable = { cabinet^minister_selection = v } } }
+	}
+
+	DHCW_Politics_headofmilitaryintelligence_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_headofmilitaryintelligence"
+		visible = { check_variable = { minister_selection = 5 } }
+		properties = { minister_gfx = { image = "GFX_MINISTER_[?v]" } }
+
+		dynamic_lists = {
+			possible_ministers = {
+				array = possible_headofmilitaryintelligence
+				entry_container = DHCW_Politics_Select_Entry
+			}
+		}
+
+		effects = { minister_select_click = { set_variable = { cabinet^minister_selection = v } } }
+	}
+
+	DHCW_Politics_chiefofstaff_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_chiefofstaff"
+		visible = { check_variable = { minister_selection = 6 } }
+		properties = { minister_gfx = { image = "GFX_MINISTER_[?v]" } }
+
+		dynamic_lists = {
+			possible_ministers = {
+				array = possible_chiefofstaff
+				entry_container = DHCW_Politics_Select_Entry
+			}
+		}
+
+		effects = { minister_select_click = { set_variable = { cabinet^minister_selection = v } } }
+	}
+
+	DHCW_Politics_chiefofarmy_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_chiefofarmy"
+		visible = { check_variable = { minister_selection = 7 } }
+		properties = { minister_gfx = { image = "GFX_MINISTER_[?v]" } }
+
+		dynamic_lists = {
+			possible_ministers = {
+				array = possible_chiefofarmy
+				entry_container = DHCW_Politics_Select_Entry
+			}
+		}
+
+		effects = { minister_select_click = { set_variable = { cabinet^minister_selection = v } } }
+	}
+
+	DHCW_Politics_chiefofnavy_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_chiefofnavy"
+		visible = { check_variable = { minister_selection = 8 } }
+		properties = { minister_gfx = { image = "GFX_MINISTER_[?v]" } }
+
+		dynamic_lists = {
+			possible_ministers = {
+				array = possible_chiefofnavy
+				entry_container = DHCW_Politics_Select_Entry
+			}
+		}
+
+		effects = { minister_select_click = { set_variable = { cabinet^minister_selection = v } } }
+	}
+
+	DHCW_Politics_chiefofairforce_scripted_gui = {
+		context_type = player_context
+		window_name = "DHCW_Politics_chiefofairforce"
+		visible = { check_variable = { minister_selection = 9 } }
+		properties = { minister_gfx = { image = "GFX_MINISTER_[?v]" } }
+
+		dynamic_lists = {
+			possible_ministers = {
+				array = possible_chiefofairforce
+				entry_container = DHCW_Politics_Select_Entry
+			}
+		}
+
+		effects = { minister_select_click = { set_variable = { cabinet^minister_selection = v } } }
+	}
+}
