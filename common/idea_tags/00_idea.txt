@@ -1,0 +1,45 @@
+idea_categories = {
+	hidden_ideas = {
+		hidden = yes
+	
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
+
+	country = {
+		national_spirit = yes
+		
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
+	
+	cabinet_1 = {
+		slot = HeadofState
+		slot = HeadofGovernment
+		slot = ForeignMinister
+		slot = MinisterofArmament
+		slot = MinisterofSecurity
+		
+		ledger = civilian
+		
+		cost = -1
+		removal_cost = -1
+	}
+	
+	cabinet_2 = {
+		slot = HeadofMilitaryIntelligence
+		slot = ChiefofStaff
+		slot = ChiefofArmy
+		slot = ChiefofNavy
+		slot = ChiefofAirForce
+		
+		ledger = civilian
+		
+		cost = -1
+		removal_cost = -1
+	}
+}

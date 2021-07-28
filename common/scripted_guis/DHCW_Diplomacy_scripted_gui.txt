@@ -1,0 +1,46 @@
+scripted_gui = {
+
+	DHCW_Diplomacy_scripted_gui = {
+		context_type = selected_country_context
+		window_name = "DHCW_Diplomacy_scripted_gui"
+		parent_window_token = selected_country_view_diplomacy
+
+		properties = {
+			diplo_country_flag = {
+				image = "[This.GetFlag]"
+			}
+			headofstate_gfx = {
+				image = "[Get_HeadofState_GFX]"
+			}
+			headofgovernment_gfx = {
+				image = "[Get_HeadofGovernment_GFX]"
+			}
+			foreignminister_gfx = {
+				image = "[Get_ForeignMinister_GFX]"
+			}
+			armamentsminister_gfx = {
+				image = "[Get_MinisterofArmament_GFX]"
+			}
+			ministerofsecurity_gfx = {
+				image = "[Get_MinisterofSecurity_GFX]"
+			}
+			headofintelligence_gfx = {
+				image = "[Get_HeadofMilitaryIntelligence_GFX]"
+			}
+			chiefofstaff_gfx = {
+				image = "[Get_ChiefofStaff_GFX]"
+			}
+			chiefofarmy_gfx = {
+				image = "[Get_ChiefofArmy_GFX]"
+			}
+			chiefofnavy_gfx = {
+				image = "[Get_ChiefofNavy_GFX]"
+			}
+			chiefofair_gfx = {
+				image = "[Get_ChiefofAirForce_GFX]"
+			}
+		}
+	}
+	
+}
+

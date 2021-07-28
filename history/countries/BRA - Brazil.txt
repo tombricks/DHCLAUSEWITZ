@@ -1,0 +1,34 @@
+capital = 2075
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "GENERIC"
+	desc = ""
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "1965.1.1"
+	ideology = neutrality_ideology
+	traits = {
+	}
+}
+
+set_variable = { democratic = 5 }
+set_variable = { political_left = 5 }
+set_variable = { free_market = 5 }
+set_variable = { freedom = 5 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 5 }
+
+set_variable = { money = 20 }
+set_variable = { dissent = 20 }
+
+add_state_core = 2001 add_state_core = 2002 add_state_core = 2003 add_state_core = 2004 add_state_core = 2005 add_state_core = 2006 add_state_core = 2057 add_state_core = 2058 add_state_core = 2059 add_state_core = 2060 add_state_core = 2061 add_state_core = 2062 add_state_core = 2065 add_state_core = 2066 add_state_core = 2067 add_state_core = 2068 add_state_core = 2069 add_state_core = 2070 add_state_core = 2071 add_state_core = 2072 add_state_core = 2073 add_state_core = 2074 add_state_core = 2075 add_state_core = 2076
+transfer_state = 2001 transfer_state = 2002 transfer_state = 2003 transfer_state = 2004 transfer_state = 2005 transfer_state = 2006 transfer_state = 2057 transfer_state = 2058 transfer_state = 2059 transfer_state = 2060 transfer_state = 2061 transfer_state = 2062 transfer_state = 2065 transfer_state = 2066 transfer_state = 2067 transfer_state = 2068 transfer_state = 2069 transfer_state = 2070 transfer_state = 2071 transfer_state = 2072 transfer_state = 2073 transfer_state = 2074 transfer_state = 2075 transfer_state = 2076

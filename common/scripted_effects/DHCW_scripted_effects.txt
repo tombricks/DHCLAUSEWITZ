@@ -1,0 +1,10 @@
+d_own_control = {
+	every_state = {
+		limit = {
+			is_controlled_by = ROOT
+		}
+		ROOT = {
+			transfer_state = PREV
+		}
+	}
+}

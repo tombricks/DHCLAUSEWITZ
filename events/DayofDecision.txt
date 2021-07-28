@@ -1,0 +1,143 @@
+﻿add_namespace = DayofDecision
+
+country_event = { # GER  Economic Recovery Policy
+	id = DayofDecision.2003136
+	title = DayofDecision.2003136.title
+	desc = DayofDecision.2003136.desc
+	#picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	option = {
+		set_global_flag = DayofDecision.2003136
+		name = DayofDecision.2003136.a
+		ai_chance = {
+			base = 100
+		}
+		add_ideas = industrial_modifier_5
+		custom_effect_tooltip = INDUSTRIAL_MODIFIER_5_TT
+		add_to_variable = { dissent = -5 }
+		custom_effect_tooltip = DISSENT_-5_TT
+		add_to_variable = { money = -500 }
+		custom_effect_tooltip = MONEY_-500_TT
+		add_to_variable = { free_market = -1 }
+		custom_effect_tooltip = FREE_MARKET_-1_TT
+		add_to_variable = { defense_lobby = -1 }
+		custom_effect_tooltip = DEFENSE_LOBBY_-1_TT
+	}
+
+	option = {
+		name = DayofDecision.2003136.b
+		activate_decision = DayofDecision_2003136
+	}
+}
+
+country_event = { # GER  General Elections
+	id = DayofDecision.2003130
+	title = DayofDecision.2003130.title
+	desc = DayofDecision.2003130.desc
+	#picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	option = {
+		name = DayofDecision.2003130.a
+		ai_chance = {
+			base = 100
+		}
+		add_to_variable = { dissent = -10 }
+		custom_effect_tooltip = DISSENT_-10_TT
+		add_to_variable = { political_left = -1 }
+		custom_effect_tooltip = POLITICAL_LEFT_-1_TT
+	}
+
+	option = {
+		set_global_flag = DayofDecision.2003130
+		name = DayofDecision.2003130.b
+		leave_faction = yes
+		set_cosmetic_tag = DDR_neutrality
+		add_to_variable = { political_left = 5 }
+		custom_effect_tooltip = POLITICAL_LEFT_5_TT
+		add_to_variable = { democratic = -2 }
+		custom_effect_tooltip = DEMOCRATIC_-2_TT
+		
+		d_clear_cabinet = yes
+		add_ideas = {
+			MINISTER_625041 # Ernst Toller
+			MINISTER_625036 # Ernst Thalmann
+			MINISTER_625038 # Helmut Herzfelde
+			MINISTER_625039 # Willie Munzenberg
+			MINISTER_625045 # Arkadi Maslow
+			MINISTER_625040 # Erich Weinert 
+			MINISTER_625026 # Erich Weinert
+			MINISTER_625029 # Otto Korfes
+			MINISTER_625065 # Karl Artelt
+			MINISTER_625032 # Franz Nowak
+		}
+
+		add_to_variable = { dissent = 40 }
+		custom_effect_tooltip = DISSENT_40_TT
+		add_to_array = { tech_teams = 625013 } #AEG
+		add_to_array = { tech_teams = 625014 } #Krupp
+		add_to_array = { tech_teams = 625015 } #I.G. Farben
+		add_to_array = { tech_teams = 625016 } #Siemens & Halske
+		add_to_array = { tech_teams = 625017 } #Werner Heisenberg
+		add_to_array = { tech_teams = 625018 } #Konrad Zuse
+		add_to_array = { tech_teams = 625019 } #Mauser Werke
+		add_to_array = { tech_teams = 625020 } #MAN
+		add_to_array = { tech_teams = 625021 } #Opel
+		add_to_array = { tech_teams = 625022 } #Rheinmetall
+		add_to_array = { tech_teams = 625023 } #Volkswagen
+		add_to_array = { tech_teams = 625024 } #Volksmarinewerft
+		add_to_array = { tech_teams = 625025 } #Blohm & Voss
+		add_to_array = { tech_teams = 625026 } #Luftschiffbau Zeppelin
+		add_to_array = { tech_teams = 625027 } #Gothaer Waggonfabrik
+		add_to_array = { tech_teams = 625028 } #Messerschmitt
+		add_to_array = { tech_teams = 625029 } #Focke-Wulf
+		add_to_array = { tech_teams = 625030 } #Arado
+		add_to_array = { tech_teams = 625031 } #Adolf Galland
+		add_to_array = { tech_teams = 625032 } #J�ger Kampfschule
+
+		create_dynamic_country = {
+			original_tag = GER
+			be_revolt = yes
+			set_state_owner = 179
+			set_state_owner = 176
+			set_state_owner = 177
+			declare_war_on = {
+				target = GER
+				type = civil_war
+			}
+			set_state_controller = 179
+			set_state_controller = 176
+			set_state_controller = 177
+		}
+	}
+}
+
+country_event = { # GER  Prohibit Weimar Flag
+	id = DayofDecision.2003131
+	title = DayofDecision.2003131.title
+	desc = DayofDecision.2003131.desc
+	#picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	option = {
+		set_global_flag = DayofDecision.2003131
+		name = DayofDecision.2003131.a
+		ai_chance = {
+			base = 100
+		}
+		hidden_effect = {
+			set_cosmetic_tag = GER_IMPERIAL_FLAG_neutrality
+		}
+		custom_effect_tooltip = "Germany adopts the Imperial Flag"
+		add_to_variable = { dissent = -1 }
+		custom_effect_tooltip = DISSENT_-1_TT
+		add_to_variable = { freedom = -1 }
+		custom_effect_tooltip = FREEDOM_-1_TT
+	}
+
+	option = {
+		name = DayofDecision.2003131.b
+		activate_decision = DayofDecision_2003131
+	}
+}

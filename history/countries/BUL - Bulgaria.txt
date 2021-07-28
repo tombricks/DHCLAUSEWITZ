@@ -1,0 +1,35 @@
+capital = 2075
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "GENERIC"
+	desc = ""
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "1965.1.1"
+	ideology = neutrality_ideology
+	traits = {
+	}
+}
+
+set_variable = { democratic = 5 }
+set_variable = { political_left = 5 }
+set_variable = { free_market = 5 }
+set_variable = { freedom = 5 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 5 }
+
+set_variable = { money = 50 }
+set_variable = { dissent = 20 }
+
+add_state_core = 317 add_state_core = 318 add_state_core = 319 add_state_core = 320 add_state_core = 321 add_state_core = 322 add_state_core = 323 add_state_core = 324 add_state_core = 325 add_state_core = 326
+transfer_state = 317 transfer_state = 318 transfer_state = 319 transfer_state = 320 transfer_state = 321 transfer_state = 322 transfer_state = 323 transfer_state = 324 transfer_state = 325 transfer_state = 326
+add_state_claim = 331 add_state_claim = 334

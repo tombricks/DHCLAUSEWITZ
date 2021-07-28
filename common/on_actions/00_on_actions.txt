@@ -1,3 +1,17 @@
 on_actions = {
-	# country 
+	on_startup = {
+		effect = {
+			GER = { country_event = { id = DayofDecision.2003130 days = 2 } }
+			#every_country = {
+			#	if =  { limit = { NOT = { has_variable = democratic } } set_variable = { democratic = 5 } } }
+			#	if =  { limit = { NOT = { has_variable = political_left } } set_variable = { political_left = 5 } } }
+			#	if =  { limit = { NOT = { has_variable = free_market } } set_variable = { free_market = 5 } } }
+			#	if =  { limit = { NOT = { has_variable = freedom } } set_variable = { freedom = 5 } }
+			#	if =  { limit = { NOT = { has_variable = professional_army } } set_variable = { professional_army = 5 } }
+			#	if =  { limit = { NOT = { has_variable = defense_lobby } } set_variable = { defense_lobby = 5 } }
+			#	if =  { limit = { NOT = { has_variable = interventionism } } set_variable = { interventionism = 5 } }
+			#	set_variable = { Minister_Selection = -1 }
+			#}
+		}
+	}
 }

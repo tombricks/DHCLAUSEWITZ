@@ -1,0 +1,43 @@
+capital = 1252
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "GENERIC"
+	desc = ""
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "1965.1.1"
+	ideology = neutrality_ideology
+	traits = {
+	}
+}
+
+set_variable = { democratic = 5 }
+set_variable = { political_left = 5 }
+set_variable = { free_market = 5 }
+set_variable = { freedom = 5 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 5 }
+
+set_variable = { money = 50 }
+set_variable = { dissent = 40 }
+
+add_state_core = 1238 add_state_core = 1239 add_state_core = 1240 add_state_core = 1248 add_state_core = 1249 add_state_core = 1250 add_state_core = 1251 add_state_core = 1252 add_state_core = 1253 add_state_core = 1254 add_state_core = 1257 add_state_core = 1258 add_state_core = 1255 add_state_core = 1259 add_state_core = 1260
+transfer_state = 1238 transfer_state = 1239 transfer_state = 1240 transfer_state = 1248 transfer_state = 1249 transfer_state = 1250 transfer_state = 1251 transfer_state = 1252 transfer_state = 1253 transfer_state = 1254 transfer_state = 1257 transfer_state = 1258 transfer_state = 1255 transfer_state = 1259 transfer_state = 1260
+create_dynamic_country = {
+	original_tag = CSX
+	be_revolt = yes
+	transfer_state = 1240
+	declare_war_on = {
+		target = CSX
+		type = civil_war
+	}
+}

@@ -1,0 +1,296 @@
+guiTypes = {
+	containerWindowType = {
+		name = "DHCW_Diplomacy_scripted_gui"
+		position = { x=0 y=-8 }
+		size = { width = 550 height = 532 }
+
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_bg"
+		}			
+			
+		iconType = {
+			name = "diplo_country_flag"
+			quadTextureSprite ="GFX_player_flag"
+			position = { x= 32 y = 32 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "country_name"
+			font = "eurostile_16b"
+			text = "[This.GetName]"
+			position = { x = 128 y = 32 }
+		}
+
+		instantTextboxType = {
+			name = "ideology"
+			font = "eurostile_16"
+			text = "Paternal Autocrat"
+			text_color_code = Y
+			position = { x = 128 y = 52 }
+		}
+
+		instantTextboxType = {
+			name = "relations"
+			font = "eurostile_16"
+			text = "Our relations with them: +20"
+			text_color_code = Y
+			position = { x = 128 y = 70 }
+		}
+
+		instantTextboxType = {
+			name = "belligerence"
+			font = "eurostile_16"
+			text = "Belligerence: 0"
+			text_color_code = Y
+			position = { x = 128 y = 88 }
+		}
+
+		iconType = {
+			name = "headofstate_gfx"
+			position = { x = 32 y = 134 }
+			spriteType = "GFX_minister_unknown"
+			scale = 0.87
+		}
+
+		instantTextboxType = {
+			name = "headofstate_label"
+			position = { x = 104 y = 134 }
+			font = "eurostile_16b"
+			text = "Head of State"
+			maxWidth = 180
+		}
+
+		instantTextboxType = {
+			name = "headofstate_name"
+			position = { x = 104 y = 158 }
+			font = "eurostile_16"
+			text = "[Get_HeadofState_Name]"
+			text_color_code = Y
+			maxWidth = 180
+		}
+
+		iconType = {
+			name = "headofgovernment_gfx"
+			position = { x = 300 y = 134 }
+			spriteType = "GFX_minister_unknown"
+			scale = 0.87
+		}
+
+		instantTextboxType = {
+			name = "headofgovernment_label"
+			position = { x = 376 y = 134 }
+			font = "eurostile_16b"
+			text = "Head of Government"
+			maxWidth = 150
+		}
+
+		instantTextboxType = {
+			name = "headofgovernment_name"
+			position = { x = 376 y = 158 }
+			font = "eurostile_16"
+			text = "[Get_HeadofGovernment_Name]"
+			text_color_code = Y
+			maxWidth = 150
+		}
+
+		iconType = {
+			name = "foreignminister_gfx"
+			position = { x = 32 y = 210 }
+			spriteType = "GFX_minister_unknown"
+			scale = 0.87
+		}
+
+		instantTextboxType = {
+			name = "foreignminister_label"
+			position = { x = 104 y = 210 }
+			font = "eurostile_16b"
+			text = "Foreign Minister"
+			maxWidth = 180
+		}
+
+		instantTextboxType = {
+			name = "foreignminister_name"
+			position = { x = 104 y = 234 }
+			font = "eurostile_16"
+			text = "[Get_ForeignMinister_Name]"
+			text_color_code = Y
+			maxWidth = 180
+		}
+
+		iconType = {
+			name = "armamentsminister_gfx"
+			position = { x = 300 y = 210 }
+			spriteType = "GFX_minister_unknown"
+			scale = 0.87
+		}
+
+		instantTextboxType = {
+			name = "armamentsminister_label"
+			position = { x = 376 y = 210 }
+			font = "eurostile_16b"
+			text = "Armaments Minister"
+			maxWidth = 150
+		}
+
+		instantTextboxType = {
+			name = "armamentsminister_name"
+			position = { x = 376 y = 234 }
+			font = "eurostile_16"
+			text = "[Get_MinisterofArmament_Name]"
+			text_color_code = Y
+			maxWidth = 150
+		}
+
+
+
+		
+
+		iconType = {
+			name = "ministerofsecurity_gfx"
+			position = { x = 32 y = 286 }
+			spriteType = "GFX_minister_unknown"
+			scale = 0.87
+		}
+
+		instantTextboxType = {
+			name = "ministerofsecurity_label"
+			position = { x = 104 y = 286 }
+			font = "eurostile_16b"
+			text = "Minister of Security"
+			maxWidth = 180
+		}
+
+		instantTextboxType = {
+			name = "ministerofsecurity_name"
+			position = { x = 104 y = 310 }
+			font = "eurostile_16"
+			text = "[Get_MinisterofSecurity_Name]"
+			text_color_code = Y
+			maxWidth = 180
+		}
+
+		iconType = {
+			name = "headofintelligence_gfx"
+			position = { x = 300 y = 286 }
+			spriteType = "GFX_minister_unknown"
+			scale = 0.87
+		}
+
+		instantTextboxType = {
+			name = "headofintelligence_label"
+			position = { x = 376 y = 286 }
+			font = "eurostile_16b"
+			text = "Head of Intelligence"
+			maxWidth = 150
+		}
+
+		instantTextboxType = {
+			name = "headofintelligence_name"
+			position = { x = 376 y = 310 }
+			font = "eurostile_16"
+			text = "[Get_HeadofMilitaryIntelligence_Name]"
+			text_color_code = Y
+			maxWidth = 150
+		}
+
+		iconType = {
+			name = "chiefofstaff_gfx"
+			position = { x = 32 y = 362 }
+			spriteType = "GFX_minister_unknown"
+			scale = 0.87
+		}
+
+		instantTextboxType = {
+			name = "chiefofstaff_label"
+			position = { x = 104 y = 362 }
+			font = "eurostile_16b"
+			text = "Chief of Staff"
+			maxWidth = 180
+		}
+
+		instantTextboxType = {
+			name = "chiefofstaff_name"
+			position = { x = 104 y = 386 }
+			font = "eurostile_16"
+			text = "[Get_ChiefofStaff_Name]"
+			text_color_code = Y
+			maxWidth = 180
+		}
+
+		iconType = {
+			name = "chiefofarmy_gfx"
+			position = { x = 300 y = 362 }
+			spriteType = "GFX_minister_unknown"
+			scale = 0.87
+		}
+
+		instantTextboxType = {
+			name = "chiefofarmy_label"
+			position = { x = 376 y = 362 }
+			font = "eurostile_16b"
+			text = "Chief of Army"
+			maxWidth = 150
+		}
+
+		instantTextboxType = {
+			name = "chiefofarmy_name"
+			position = { x = 376 y = 386 }
+			font = "eurostile_16"
+			text = "[Get_ChiefofArmy_Name]"
+			text_color_code = Y
+			maxWidth = 150
+		}
+
+		
+
+		iconType = {
+			name = "chiefofnavy_gfx"
+			position = { x = 32 y = 434 }
+			spriteType = "GFX_minister_unknown"
+			scale = 0.87
+		}
+
+		instantTextboxType = {
+			name = "chiefofnavy_label"
+			position = { x = 104 y = 434 }
+			font = "eurostile_16b"
+			text = "Chief of Navy"
+			maxWidth = 180
+		}
+
+		instantTextboxType = {
+			name = "chiefofnavy_name"
+			position = { x = 104 y = 458 }
+			font = "eurostile_16"
+			text = "[Get_ChiefofNavy_Name]"
+			text_color_code = Y
+			maxWidth = 180
+		}
+
+		iconType = {
+			name = "chiefofair_gfx"
+			position = { x = 300 y = 434 }
+			spriteType = "GFX_minister_unknown"
+			scale = 0.87
+		}
+
+		instantTextboxType = {
+			name = "chiefofair_label"
+			position = { x = 376 y = 434 }
+			font = "eurostile_16b"
+			text = "Armaments Minister"
+			maxWidth = 150
+		}
+
+		instantTextboxType = {
+			name = "chiefofair_name"
+			position = { x = 376 y = 458 }
+			font = "eurostile_16"
+			text = "[Get_ChiefofAirForce_Name]"
+			text_color_code = Y
+			maxWidth = 150
+		}
+	}
+}

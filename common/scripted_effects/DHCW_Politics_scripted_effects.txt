@@ -1,0 +1,20 @@
+be_revolt = {
+	set_research_slots = 1
+	set_stability = 1.0
+	set_war_support = 1.0
+	set_cosmetic_tag = REVOLT_COSMETICS_neutrality
+	set_country_flag = revolt
+}
+
+d_clear_cabinet = {
+	remove_ideas_with_trait = minister_HeadofState
+	remove_ideas_with_trait = minister_HeadofGovernment
+	remove_ideas_with_trait = minister_ForeignMinister
+	remove_ideas_with_trait = minister_MinisterofArmament
+	remove_ideas_with_trait = minister_MinisterofSecurity
+	remove_ideas_with_trait = minister_HeadofMilitaryIntelligence
+	remove_ideas_with_trait = minister_ChiefofStaff
+	remove_ideas_with_trait = minister_ChiefofArmy
+	remove_ideas_with_trait = minister_ChiefofNavy
+	remove_ideas_with_trait = minister_ChiefofAirForce
+}
