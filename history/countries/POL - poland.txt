@@ -1,0 +1,130 @@
+# POL
+capital = 232
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 7 }
+set_variable = { political_left = 1 }
+set_variable = { free_market = 5 }
+set_variable = { freedom = 4 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 8 }
+set_variable = { interventionism = 6 }
+
+set_variable = { money = 20 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_60001
+        #MINISTER_60002
+        #MINISTER_60003
+        #MINISTER_60004
+        #MINISTER_60005
+        #MINISTER_60006
+        #MINISTER_60007
+        #MINISTER_60008
+        #MINISTER_60009
+        #MINISTER_60010
+#}
+
+add_state_core = 168
+add_state_core = 185
+add_state_core = 203
+add_state_core = 221
+add_state_core = 222
+add_state_core = 223
+add_state_core = 224
+add_state_core = 225
+add_state_core = 226
+add_state_core = 227
+add_state_core = 228
+add_state_core = 229
+add_state_core = 230
+add_state_core = 231
+add_state_core = 232
+add_state_core = 233
+add_state_core = 234
+add_state_core = 235
+add_state_core = 236
+add_state_core = 237
+add_state_core = 238
+add_state_core = 239
+add_state_core = 240
+add_state_core = 241
+add_state_core = 242
+add_state_core = 243
+add_state_core = 244
+add_state_core = 245
+add_state_core = 246
+add_state_core = 247
+add_state_core = 248
+add_state_core = 249
+add_state_core = 250
+add_state_core = 251
+add_state_core = 252
+add_state_core = 253
+add_state_core = 254
+add_state_core = 255
+add_state_core = 256
+add_state_core = 257
+add_state_core = 258
+add_state_core = 614
+add_state_core = 618
+
+transfer_state = 221
+transfer_state = 222
+transfer_state = 223
+transfer_state = 224
+transfer_state = 225
+transfer_state = 226
+transfer_state = 227
+transfer_state = 228
+transfer_state = 229
+transfer_state = 230
+transfer_state = 231
+transfer_state = 232
+transfer_state = 233
+transfer_state = 234
+transfer_state = 235
+transfer_state = 236
+transfer_state = 237
+transfer_state = 238
+transfer_state = 239
+transfer_state = 240
+transfer_state = 241
+transfer_state = 242
+transfer_state = 243
+transfer_state = 244
+transfer_state = 245
+transfer_state = 246
+transfer_state = 247
+transfer_state = 248
+transfer_state = 249
+transfer_state = 250
+transfer_state = 251
+transfer_state = 252
+transfer_state = 253
+transfer_state = 254
+transfer_state = 255
+transfer_state = 256
+transfer_state = 257
+transfer_state = 258
+
+

@@ -1,0 +1,277 @@
+# IND
+capital = 1459
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 5 }
+set_variable = { political_left = 3 }
+set_variable = { free_market = 5 }
+set_variable = { freedom = 3 }
+set_variable = { professional_army = 2 }
+set_variable = { defense_lobby = 3 }
+set_variable = { interventionism = 3 }
+
+set_variable = { money = 70 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_825089
+        #MINISTER_825002
+        #MINISTER_825003
+        #MINISTER_825004
+        #MINISTER_825005
+        #MINISTER_825006
+        #MINISTER_825007
+        #MINISTER_825008
+        #MINISTER_825009
+        #MINISTER_825090
+#}
+
+add_state_core = 1406
+add_state_core = 1407
+add_state_core = 1408
+add_state_core = 1409
+add_state_core = 1410
+add_state_core = 1411
+add_state_core = 1412
+add_state_core = 1413
+add_state_core = 1414
+add_state_core = 1415
+add_state_core = 1416
+add_state_core = 1417
+add_state_core = 1418
+add_state_core = 1419
+add_state_core = 1420
+add_state_core = 1421
+add_state_core = 1439
+add_state_core = 1440
+add_state_core = 1441
+add_state_core = 1442
+add_state_core = 1443
+add_state_core = 1445
+add_state_core = 1450
+add_state_core = 1455
+add_state_core = 1458
+add_state_core = 1444
+add_state_core = 1446
+add_state_core = 1447
+add_state_core = 1448
+add_state_core = 1449
+add_state_core = 1451
+add_state_core = 1452
+add_state_core = 1453
+add_state_core = 1454
+add_state_core = 1459
+add_state_core = 1460
+add_state_core = 1461
+add_state_core = 1462
+add_state_core = 1463
+add_state_core = 1464
+add_state_core = 1465
+add_state_core = 1466
+add_state_core = 1467
+add_state_core = 1468
+add_state_core = 1469
+add_state_core = 1470
+add_state_core = 1471
+add_state_core = 1472
+add_state_core = 1473
+add_state_core = 1474
+add_state_core = 1475
+add_state_core = 1476
+add_state_core = 1477
+add_state_core = 1478
+add_state_core = 1479
+add_state_core = 1480
+add_state_core = 1481
+add_state_core = 1482
+add_state_core = 1483
+add_state_core = 1484
+add_state_core = 1485
+add_state_core = 1486
+add_state_core = 1487
+add_state_core = 1488
+add_state_core = 1489
+add_state_core = 1490
+add_state_core = 1491
+add_state_core = 1492
+add_state_core = 1493
+add_state_core = 1494
+add_state_core = 1495
+add_state_core = 1496
+add_state_core = 1497
+add_state_core = 1498
+add_state_core = 1499
+add_state_core = 1500
+add_state_core = 1501
+add_state_core = 1502
+add_state_core = 1503
+add_state_core = 1504
+add_state_core = 1505
+add_state_core = 1506
+add_state_core = 1507
+add_state_core = 1508
+add_state_core = 1512
+add_state_core = 1514
+add_state_core = 1515
+add_state_core = 1516
+add_state_core = 1517
+add_state_core = 1518
+add_state_core = 1519
+add_state_core = 1520
+add_state_core = 1521
+add_state_core = 1522
+add_state_core = 1523
+add_state_core = 1524
+add_state_core = 1525
+add_state_core = 1526
+add_state_core = 1527
+add_state_core = 1528
+add_state_core = 1530
+add_state_core = 1531
+add_state_core = 1532
+add_state_core = 1535
+add_state_core = 1536
+add_state_core = 1278
+add_state_core = 1529
+add_state_core = 1533
+add_state_core = 1534
+add_state_core = 1537
+add_state_core = 1538
+add_state_core = 1539
+add_state_core = 1540
+add_state_core = 1612
+
+transfer_state = 1406
+transfer_state = 1407
+transfer_state = 1408
+transfer_state = 1409
+transfer_state = 1410
+transfer_state = 1411
+transfer_state = 1412
+transfer_state = 1413
+transfer_state = 1414
+transfer_state = 1415
+transfer_state = 1416
+transfer_state = 1417
+transfer_state = 1418
+transfer_state = 1419
+transfer_state = 1420
+transfer_state = 1421
+transfer_state = 1439
+transfer_state = 1440
+transfer_state = 1441
+transfer_state = 1442
+transfer_state = 1443
+transfer_state = 1445
+transfer_state = 1450
+transfer_state = 1455
+transfer_state = 1458
+transfer_state = 1444
+transfer_state = 1446
+transfer_state = 1447
+transfer_state = 1448
+transfer_state = 1449
+transfer_state = 1451
+transfer_state = 1452
+transfer_state = 1453
+transfer_state = 1454
+transfer_state = 1459
+transfer_state = 1460
+transfer_state = 1461
+transfer_state = 1462
+transfer_state = 1463
+transfer_state = 1464
+transfer_state = 1465
+transfer_state = 1466
+transfer_state = 1467
+transfer_state = 1468
+transfer_state = 1469
+transfer_state = 1470
+transfer_state = 1471
+transfer_state = 1472
+transfer_state = 1473
+transfer_state = 1474
+transfer_state = 1475
+transfer_state = 1476
+transfer_state = 1477
+transfer_state = 1478
+transfer_state = 1479
+transfer_state = 1480
+transfer_state = 1481
+transfer_state = 1482
+transfer_state = 1483
+transfer_state = 1484
+transfer_state = 1485
+transfer_state = 1486
+transfer_state = 1487
+transfer_state = 1488
+transfer_state = 1489
+transfer_state = 1490
+transfer_state = 1491
+transfer_state = 1492
+transfer_state = 1493
+transfer_state = 1494
+transfer_state = 1495
+transfer_state = 1496
+transfer_state = 1497
+transfer_state = 1498
+transfer_state = 1499
+transfer_state = 1500
+transfer_state = 1501
+transfer_state = 1502
+transfer_state = 1503
+transfer_state = 1504
+transfer_state = 1505
+transfer_state = 1506
+transfer_state = 1507
+transfer_state = 1508
+transfer_state = 1512
+transfer_state = 1514
+transfer_state = 1515
+transfer_state = 1516
+transfer_state = 1517
+transfer_state = 1518
+transfer_state = 1519
+transfer_state = 1520
+transfer_state = 1521
+transfer_state = 1522
+transfer_state = 1523
+transfer_state = 1524
+transfer_state = 1525
+transfer_state = 1526
+transfer_state = 1527
+transfer_state = 1528
+transfer_state = 1530
+transfer_state = 1531
+transfer_state = 1532
+transfer_state = 1535
+transfer_state = 1536
+transfer_state = 1278
+transfer_state = 1529
+transfer_state = 1533
+transfer_state = 1534
+transfer_state = 1537
+transfer_state = 1538
+transfer_state = 1539
+transfer_state = 1540
+transfer_state = 1612
+
+

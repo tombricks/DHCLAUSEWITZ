@@ -1,0 +1,99 @@
+# CHC
+capital = 1
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 1 }
+set_variable = { political_left = 4 }
+set_variable = { free_market = 3 }
+set_variable = { freedom = 3 }
+set_variable = { professional_army = 2 }
+set_variable = { defense_lobby = 8 }
+set_variable = { interventionism = 8 }
+
+set_variable = { money = 20 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_235001
+        #MINISTER_235002
+        #MINISTER_235003
+        #MINISTER_235004
+        #MINISTER_235005
+        #MINISTER_235006
+        #MINISTER_235007
+        #MINISTER_235008
+        #MINISTER_235009
+        #MINISTER_235010
+#}
+
+add_state_core = 1208
+add_state_core = 1219
+
+transfer_state = 1197
+transfer_state = 1198
+transfer_state = 1199
+transfer_state = 1200
+transfer_state = 1201
+transfer_state = 1202
+transfer_state = 1203
+transfer_state = 1204
+transfer_state = 1205
+transfer_state = 1206
+transfer_state = 1207
+transfer_state = 1208
+transfer_state = 1209
+transfer_state = 1210
+transfer_state = 1211
+transfer_state = 1212
+transfer_state = 1213
+transfer_state = 1214
+transfer_state = 1215
+transfer_state = 1217
+transfer_state = 1218
+transfer_state = 1220
+transfer_state = 1237
+
+add_state_claim = 1197
+add_state_claim = 1198
+add_state_claim = 1199
+add_state_claim = 1200
+add_state_claim = 1201
+add_state_claim = 1202
+add_state_claim = 1203
+add_state_claim = 1204
+add_state_claim = 1205
+add_state_claim = 1206
+add_state_claim = 1207
+add_state_claim = 1209
+add_state_claim = 1210
+add_state_claim = 1211
+add_state_claim = 1212
+add_state_claim = 1213
+add_state_claim = 1214
+add_state_claim = 1215
+add_state_claim = 1216
+add_state_claim = 1217
+add_state_claim = 1218
+add_state_claim = 1220
+add_state_claim = 1235
+add_state_claim = 1236
+add_state_claim = 1237
+

@@ -1,0 +1,63 @@
+# ECU
+capital = 2042
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 7 }
+set_variable = { political_left = 5 }
+set_variable = { free_market = 8 }
+set_variable = { freedom = 5 }
+set_variable = { professional_army = 4 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 1 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_190019
+        #MINISTER_190037
+        #MINISTER_190003
+        #MINISTER_190004
+        #MINISTER_190005
+        #MINISTER_190006
+        #MINISTER_190007
+        #MINISTER_190008
+        #MINISTER_190009
+        #MINISTER_190010
+#}
+
+add_state_core = 2007
+add_state_core = 2008
+add_state_core = 2010
+add_state_core = 2033
+add_state_core = 2040
+add_state_core = 2041
+add_state_core = 2042
+
+transfer_state = 2007
+transfer_state = 2008
+transfer_state = 2010
+transfer_state = 2033
+transfer_state = 2040
+transfer_state = 2041
+transfer_state = 2042
+
+

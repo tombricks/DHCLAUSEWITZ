@@ -1,35 +1,79 @@
-capital = 2075
+# BUL
+capital = 321
 set_stability = 1.0
 set_war_support = 1.0
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
-	election_frequency = 48
-	elections_allowed = no
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
 }
 
 create_country_leader = {
-	name = "GENERIC"
-	desc = ""
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "1965.1.1"
-	ideology = neutrality_ideology
-	traits = {
-	}
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
 }
 
-set_variable = { democratic = 5 }
-set_variable = { political_left = 5 }
-set_variable = { free_market = 5 }
-set_variable = { freedom = 5 }
-set_variable = { professional_army = 5 }
+set_variable = { democratic = 3 }
+set_variable = { political_left = 4 }
+set_variable = { free_market = 7 }
+set_variable = { freedom = 6 }
+set_variable = { professional_army = 2 }
 set_variable = { defense_lobby = 5 }
-set_variable = { interventionism = 5 }
+set_variable = { interventionism = 9 }
 
 set_variable = { money = 50 }
 set_variable = { dissent = 20 }
 
-add_state_core = 317 add_state_core = 318 add_state_core = 319 add_state_core = 320 add_state_core = 321 add_state_core = 322 add_state_core = 323 add_state_core = 324 add_state_core = 325 add_state_core = 326
-transfer_state = 317 transfer_state = 318 transfer_state = 319 transfer_state = 320 transfer_state = 321 transfer_state = 322 transfer_state = 323 transfer_state = 324 transfer_state = 325 transfer_state = 326
-add_state_claim = 331 add_state_claim = 334
+#add_ideas = {
+        #MINISTER_95001
+        #MINISTER_95241
+        #MINISTER_95242
+        #MINISTER_95244
+        #MINISTER_95067
+        #MINISTER_95006
+        #MINISTER_95007
+        #MINISTER_95008
+        #MINISTER_95009
+        #MINISTER_95010
+#}
+
+add_state_core = 307
+add_state_core = 317
+add_state_core = 318
+add_state_core = 319
+add_state_core = 320
+add_state_core = 321
+add_state_core = 322
+add_state_core = 323
+add_state_core = 324
+add_state_core = 325
+add_state_core = 326
+add_state_core = 364
+add_state_core = 370
+add_state_core = 328
+add_state_core = 333
+add_state_core = 363
+add_state_core = 365
+add_state_core = 366
+
+transfer_state = 317
+transfer_state = 318
+transfer_state = 319
+transfer_state = 320
+transfer_state = 321
+transfer_state = 322
+transfer_state = 323
+transfer_state = 324
+transfer_state = 325
+transfer_state = 326
+
+add_state_claim = 331
+add_state_claim = 334
+

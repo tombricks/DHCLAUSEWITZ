@@ -1,35 +1,61 @@
-# IRE - Ireland.txt
+# IRE
 capital = 34
 set_stability = 1.0
 set_war_support = 1.0
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
-	election_frequency = 48
-	elections_allowed = no
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
 }
 
 create_country_leader = {
-	name = "GENERIC"
-	desc = ""
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "1965.1.1"
-	ideology = neutrality_ideology
-	traits = {
-	}
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
 }
 
-set_variable = { democratic = 5 }
-set_variable = { political_left = 5 }
-set_variable = { free_market = 5 }
-set_variable = { freedom = 5 }
-set_variable = { professional_army = 5 }
-set_variable = { defense_lobby = 5 }
-set_variable = { interventionism = 5 }
+set_variable = { democratic = 9 }
+set_variable = { political_left = 3 }
+set_variable = { free_market = 7 }
+set_variable = { freedom = 8 }
+set_variable = { professional_army = 2 }
+set_variable = { defense_lobby = 4 }
+set_variable = { interventionism = 2 }
 
 set_variable = { money = 10 }
 set_variable = { dissent = 20 }
 
-add_state_core = 30 add_state_core = 31 add_state_core = 32 add_state_core = 33 add_state_core = 34 add_state_core = 35 add_state_core = 36
-transfer_state = 30 transfer_state = 31 transfer_state = 32 transfer_state = 33 transfer_state = 34
+#add_ideas = {
+        #MINISTER_125001
+        #MINISTER_125002
+        #MINISTER_125003
+        #MINISTER_125004
+        #MINISTER_125005
+        #MINISTER_125006
+        #MINISTER_125007
+        #MINISTER_125008
+        #MINISTER_125009
+        #MINISTER_125010
+#}
+
+add_state_core = 30
+add_state_core = 31
+add_state_core = 32
+add_state_core = 33
+add_state_core = 34
+add_state_core = 35
+add_state_core = 36
+
+transfer_state = 30
+transfer_state = 31
+transfer_state = 32
+transfer_state = 33
+transfer_state = 34
+
+

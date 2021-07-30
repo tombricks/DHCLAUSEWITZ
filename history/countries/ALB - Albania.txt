@@ -1,35 +1,59 @@
-# ALB - Albania.txt
+# ITA
 capital = 359
 set_stability = 1.0
 set_war_support = 1.0
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
-	election_frequency = 48
-	elections_allowed = no
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
 }
 
 create_country_leader = {
-	name = "GENERIC"
-	desc = ""
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "1965.1.1"
-	ideology = neutrality_ideology
-	traits = {
-	}
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
 }
 
-set_variable = { democratic = 5 }
-set_variable = { political_left = 5 }
-set_variable = { free_market = 5 }
+set_variable = { democratic = 3 }
+set_variable = { political_left = 4 }
+set_variable = { free_market = 7 }
 set_variable = { freedom = 5 }
 set_variable = { professional_army = 5 }
-set_variable = { defense_lobby = 5 }
-set_variable = { interventionism = 5 }
+set_variable = { defense_lobby = 4 }
+set_variable = { interventionism = 1 }
 
 set_variable = { money = 10 }
 set_variable = { dissent = 20 }
 
-add_state_core = 359 add_state_core = 362 add_state_core = 329 add_state_core = 361 add_state_core = 360 add_state_core = 334
-transfer_state = 359 transfer_state = 360 transfer_state = 361 transfer_state = 362
+#add_ideas = {
+        #MINISTER_285001
+        #MINISTER_285002
+        #MINISTER_285003
+        #MINISTER_285004
+        #MINISTER_285005
+        #MINISTER_285006
+        #MINISTER_285007
+        #MINISTER_285008
+        #MINISTER_285009
+        #MINISTER_285010
+#}
+
+add_state_core = 359
+add_state_core = 362
+add_state_core = 329
+add_state_core = 361
+add_state_core = 360
+add_state_core = 334
+
+transfer_state = 359
+transfer_state = 360
+transfer_state = 361
+transfer_state = 362
+
+

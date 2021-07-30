@@ -1,0 +1,92 @@
+# GRE
+capital = 377
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 8 }
+set_variable = { political_left = 2 }
+set_variable = { free_market = 5 }
+set_variable = { freedom = 4 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 4 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_90243
+        #MINISTER_90034
+        #MINISTER_90244
+        #MINISTER_90004
+        #MINISTER_90005
+        #MINISTER_90235
+        #MINISTER_90128
+        #MINISTER_90008
+        #MINISTER_90009
+        #MINISTER_90236
+#}
+
+add_state_core = 363
+add_state_core = 364
+add_state_core = 365
+add_state_core = 366
+add_state_core = 367
+add_state_core = 368
+add_state_core = 369
+add_state_core = 370
+add_state_core = 371
+add_state_core = 372
+add_state_core = 373
+add_state_core = 374
+add_state_core = 375
+add_state_core = 376
+add_state_core = 377
+add_state_core = 378
+add_state_core = 379
+add_state_core = 380
+add_state_core = 381
+add_state_core = 382
+add_state_core = 383
+
+transfer_state = 363
+transfer_state = 364
+transfer_state = 365
+transfer_state = 366
+transfer_state = 367
+transfer_state = 368
+transfer_state = 369
+transfer_state = 370
+transfer_state = 371
+transfer_state = 372
+transfer_state = 373
+transfer_state = 374
+transfer_state = 375
+transfer_state = 376
+transfer_state = 377
+transfer_state = 380
+transfer_state = 381
+transfer_state = 382
+transfer_state = 383
+
+add_state_claim = 328
+add_state_claim = 333
+add_state_claim = 360
+

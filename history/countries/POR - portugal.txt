@@ -1,0 +1,105 @@
+# POR
+capital = 476
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 3 }
+set_variable = { political_left = 4 }
+set_variable = { free_market = 5 }
+set_variable = { freedom = 4 }
+set_variable = { professional_army = 6 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 3 }
+
+set_variable = { money = 15 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_20001
+        #MINISTER_20002
+        #MINISTER_20003
+        #MINISTER_20004
+        #MINISTER_20005
+        #MINISTER_20006
+        #MINISTER_20007
+        #MINISTER_20008
+        #MINISTER_20009
+        #MINISTER_20010
+#}
+
+add_state_core = 476
+add_state_core = 477
+add_state_core = 478
+add_state_core = 479
+add_state_core = 480
+add_state_core = 481
+add_state_core = 482
+
+transfer_state = 476
+transfer_state = 477
+transfer_state = 478
+transfer_state = 479
+transfer_state = 480
+transfer_state = 481
+transfer_state = 482
+transfer_state = 853
+transfer_state = 854
+transfer_state = 855
+transfer_state = 856
+transfer_state = 857
+transfer_state = 858
+transfer_state = 887
+transfer_state = 888
+transfer_state = 890
+transfer_state = 891
+transfer_state = 892
+transfer_state = 893
+transfer_state = 895
+transfer_state = 912
+transfer_state = 963
+transfer_state = 992
+transfer_state = 994
+transfer_state = 995
+transfer_state = 1372
+transfer_state = 1513
+transfer_state = 1617
+
+add_state_claim = 853
+add_state_claim = 854
+add_state_claim = 855
+add_state_claim = 856
+add_state_claim = 857
+add_state_claim = 858
+add_state_claim = 887
+add_state_claim = 888
+add_state_claim = 890
+add_state_claim = 891
+add_state_claim = 892
+add_state_claim = 893
+add_state_claim = 895
+add_state_claim = 912
+add_state_claim = 963
+add_state_claim = 992
+add_state_claim = 994
+add_state_claim = 995
+add_state_claim = 1372
+add_state_claim = 1513
+add_state_claim = 1617
+

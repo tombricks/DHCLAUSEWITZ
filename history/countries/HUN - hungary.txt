@@ -1,0 +1,87 @@
+# HUN
+capital = 284
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 4 }
+set_variable = { political_left = 1 }
+set_variable = { free_market = 4 }
+set_variable = { freedom = 3 }
+set_variable = { professional_army = 2 }
+set_variable = { defense_lobby = 7 }
+set_variable = { interventionism = 8 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_105001
+        #MINISTER_105002
+        #MINISTER_105003
+        #MINISTER_105051
+        #MINISTER_105067
+        #MINISTER_105207
+        #MINISTER_105007
+        #MINISTER_105008
+        #MINISTER_105009
+        #MINISTER_105010
+#}
+
+add_state_core = 209
+add_state_core = 210
+add_state_core = 215
+add_state_core = 276
+add_state_core = 277
+add_state_core = 278
+add_state_core = 279
+add_state_core = 280
+add_state_core = 281
+add_state_core = 282
+add_state_core = 283
+add_state_core = 284
+add_state_core = 286
+add_state_core = 288
+add_state_core = 292
+add_state_core = 293
+add_state_core = 296
+add_state_core = 341
+
+transfer_state = 276
+transfer_state = 277
+transfer_state = 278
+transfer_state = 279
+transfer_state = 280
+transfer_state = 281
+transfer_state = 282
+transfer_state = 283
+transfer_state = 284
+
+add_state_claim = 188
+add_state_claim = 208
+add_state_claim = 211
+add_state_claim = 212
+add_state_claim = 213
+add_state_claim = 214
+add_state_claim = 285
+add_state_claim = 287
+add_state_claim = 289
+add_state_claim = 291
+add_state_claim = 295
+

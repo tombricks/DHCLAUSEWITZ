@@ -1,0 +1,82 @@
+# SIA
+capital = 1423
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 4 }
+set_variable = { political_left = 3 }
+set_variable = { free_market = 3 }
+set_variable = { freedom = 3 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 5 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_290102
+        #MINISTER_290002
+        #MINISTER_290003
+        #MINISTER_290004
+        #MINISTER_290005
+        #MINISTER_290006
+        #MINISTER_290007
+        #MINISTER_290008
+        #MINISTER_290009
+        #MINISTER_290010
+#}
+
+add_state_core = 1422
+add_state_core = 1423
+add_state_core = 1424
+add_state_core = 1425
+add_state_core = 1426
+add_state_core = 1427
+add_state_core = 1428
+add_state_core = 1429
+add_state_core = 1430
+add_state_core = 1431
+
+transfer_state = 1422
+transfer_state = 1423
+transfer_state = 1424
+transfer_state = 1425
+transfer_state = 1426
+transfer_state = 1427
+transfer_state = 1428
+transfer_state = 1429
+transfer_state = 1430
+transfer_state = 1431
+
+add_state_claim = 1391
+add_state_claim = 1394
+add_state_claim = 1398
+add_state_claim = 1400
+add_state_claim = 1401
+add_state_claim = 1402
+add_state_claim = 1404
+add_state_claim = 1405
+add_state_claim = 1409
+add_state_claim = 1412
+add_state_claim = 1413
+add_state_claim = 1433
+add_state_claim = 1434
+

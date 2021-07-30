@@ -1,0 +1,52 @@
+# HAI
+capital = 1781
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 4 }
+set_variable = { political_left = 5 }
+set_variable = { free_market = 4 }
+set_variable = { freedom = 2 }
+set_variable = { professional_army = 1 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 3 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_350001
+        #MINISTER_350002
+        #MINISTER_350003
+        #MINISTER_350004
+        #MINISTER_350005
+        #MINISTER_350006
+        #MINISTER_350007
+        #MINISTER_350008
+        #MINISTER_350009
+        #MINISTER_350010
+#}
+
+add_state_core = 1780
+add_state_core = 1781
+
+transfer_state = 1781
+
+

@@ -1,37 +1,49 @@
-# FRA - France.txt
+# FRA
 capital = 55
 set_stability = 1.0
 set_war_support = 1.0
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
-	election_frequency = 48
-	elections_allowed = no
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
 }
 
 create_country_leader = {
-	name = "GENERIC"
-	desc = ""
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "1965.1.1"
-	ideology = neutrality_ideology
-	traits = {
-	}
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
 }
 
-set_variable = { democratic = 5 }
-set_variable = { political_left = 5 }
-set_variable = { free_market = 5 }
-set_variable = { freedom = 5 }
+set_variable = { democratic = 9 }
+set_variable = { political_left = 6 }
+set_variable = { free_market = 9 }
+set_variable = { freedom = 10 }
 set_variable = { professional_army = 5 }
-set_variable = { defense_lobby = 5 }
+set_variable = { defense_lobby = 7 }
 set_variable = { interventionism = 5 }
 
 set_variable = { money = 50 }
 set_variable = { dissent = 20 }
 
-# CORES
+#add_ideas = {
+        #MINISTER_5001
+        #MINISTER_5020
+        #MINISTER_5031
+        #MINISTER_5059
+        #MINISTER_5095
+        #MINISTER_5395
+        #MINISTER_5124
+        #MINISTER_5136
+        #MINISTER_5397
+        #MINISTER_5010
+#}
+
 add_state_core = 37
 add_state_core = 38
 add_state_core = 39
@@ -104,7 +116,6 @@ add_state_core = 105
 add_state_core = 106
 add_state_core = 107
 
-# OWNERSHIP
 transfer_state = 37
 transfer_state = 38
 transfer_state = 39
@@ -287,3 +298,115 @@ transfer_state = 1768
 transfer_state = 2000
 transfer_state = 2135
 transfer_state = 127
+
+add_state_claim = 717
+add_state_claim = 718
+add_state_claim = 719
+add_state_claim = 720
+add_state_claim = 721
+add_state_claim = 722
+add_state_claim = 723
+add_state_claim = 724
+add_state_claim = 725
+add_state_claim = 726
+add_state_claim = 727
+add_state_claim = 728
+add_state_claim = 729
+add_state_claim = 730
+add_state_claim = 731
+add_state_claim = 732
+add_state_claim = 733
+add_state_claim = 734
+add_state_claim = 735
+add_state_claim = 736
+add_state_claim = 737
+add_state_claim = 738
+add_state_claim = 739
+add_state_claim = 743
+add_state_claim = 740
+add_state_claim = 741
+add_state_claim = 742
+add_state_claim = 744
+add_state_claim = 745
+add_state_claim = 746
+add_state_claim = 747
+add_state_claim = 748
+add_state_claim = 749
+add_state_claim = 907
+add_state_claim = 908
+add_state_claim = 909
+add_state_claim = 910
+add_state_claim = 911
+add_state_claim = 914
+add_state_claim = 915
+add_state_claim = 917
+add_state_claim = 918
+add_state_claim = 919
+add_state_claim = 920
+add_state_claim = 921
+add_state_claim = 922
+add_state_claim = 923
+add_state_claim = 924
+add_state_claim = 925
+add_state_claim = 926
+add_state_claim = 927
+add_state_claim = 928
+add_state_claim = 942
+add_state_claim = 943
+add_state_claim = 944
+add_state_claim = 945
+add_state_claim = 946
+add_state_claim = 947
+add_state_claim = 948
+add_state_claim = 949
+add_state_claim = 950
+add_state_claim = 951
+add_state_claim = 957
+add_state_claim = 958
+add_state_claim = 959
+add_state_claim = 960
+add_state_claim = 961
+add_state_claim = 962
+add_state_claim = 965
+add_state_claim = 966
+add_state_claim = 967
+add_state_claim = 968
+add_state_claim = 970
+add_state_claim = 971
+add_state_claim = 972
+add_state_claim = 973
+add_state_claim = 974
+add_state_claim = 975
+add_state_claim = 976
+add_state_claim = 977
+add_state_claim = 978
+add_state_claim = 980
+add_state_claim = 981
+add_state_claim = 982
+add_state_claim = 983
+add_state_claim = 984
+add_state_claim = 985
+add_state_claim = 986
+add_state_claim = 833
+add_state_claim = 1001
+add_state_claim = 1002
+add_state_claim = 1003
+add_state_claim = 996
+add_state_claim = 999
+add_state_claim = 1000
+add_state_claim = 2000
+add_state_claim = 1752
+add_state_claim = 1767
+add_state_claim = 1768
+add_state_claim = 1581
+add_state_claim = 1582
+add_state_claim = 1583
+add_state_claim = 1584
+add_state_claim = 1585
+add_state_claim = 1586
+add_state_claim = 1730
+add_state_claim = 1740
+add_state_claim = 1743
+add_state_claim = 1744
+add_state_claim = 2135
+

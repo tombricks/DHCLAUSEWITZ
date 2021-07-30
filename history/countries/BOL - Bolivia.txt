@@ -1,34 +1,62 @@
+# BOL
 capital = 2020
 set_stability = 1.0
 set_war_support = 1.0
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
-	election_frequency = 48
-	elections_allowed = no
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
 }
 
 create_country_leader = {
-	name = "GENERIC"
-	desc = ""
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "1965.1.1"
-	ideology = neutrality_ideology
-	traits = {
-	}
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
 }
 
-set_variable = { democratic = 5 }
+set_variable = { democratic = 7 }
 set_variable = { political_left = 5 }
-set_variable = { free_market = 5 }
-set_variable = { freedom = 5 }
-set_variable = { professional_army = 5 }
-set_variable = { defense_lobby = 5 }
+set_variable = { free_market = 8 }
+set_variable = { freedom = 7 }
+set_variable = { professional_army = 7 }
+set_variable = { defense_lobby = 8 }
 set_variable = { interventionism = 5 }
 
 set_variable = { money = 10 }
 set_variable = { dissent = 20 }
 
-add_state_core = 2002 add_state_core = 2019 add_state_core = 2020 add_state_core = 2021 add_state_core = 2024 add_state_core = 2046 add_state_core = 2063 add_state_core = 2064
-transfer_state = 2019 transfer_state = 2020 transfer_state = 2021 transfer_state = 2063 transfer_state = 2064
+#add_ideas = {
+        #MINISTER_205217
+        #MINISTER_205218
+        #MINISTER_205003
+        #MINISTER_205004
+        #MINISTER_205005
+        #MINISTER_205006
+        #MINISTER_205007
+        #MINISTER_205008
+        #MINISTER_205009
+        #MINISTER_205010
+#}
+
+add_state_core = 2002
+add_state_core = 2019
+add_state_core = 2020
+add_state_core = 2021
+add_state_core = 2024
+add_state_core = 2046
+add_state_core = 2063
+add_state_core = 2064
+
+transfer_state = 2019
+transfer_state = 2020
+transfer_state = 2021
+transfer_state = 2063
+transfer_state = 2064
+
+

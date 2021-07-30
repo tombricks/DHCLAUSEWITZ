@@ -1,34 +1,58 @@
+# CUB
 capital = 1776
 set_stability = 1.0
 set_war_support = 1.0
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
-	election_frequency = 48
-	elections_allowed = no
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
 }
 
 create_country_leader = {
-	name = "GENERIC"
-	desc = ""
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "1965.1.1"
-	ideology = neutrality_ideology
-	traits = {
-	}
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
 }
 
-set_variable = { democratic = 5 }
-set_variable = { political_left = 5 }
-set_variable = { free_market = 5 }
+set_variable = { democratic = 8 }
+set_variable = { political_left = 4 }
+set_variable = { free_market = 8 }
 set_variable = { freedom = 5 }
-set_variable = { professional_army = 5 }
+set_variable = { professional_army = 2 }
 set_variable = { defense_lobby = 5 }
-set_variable = { interventionism = 5 }
+set_variable = { interventionism = 2 }
 
-set_variable = { money = 50 }
-set_variable = { dissent = 40 }
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
 
-add_state_core = 1775 add_state_core = 1776 add_state_core = 1777 add_state_core = 1778 add_state_core = 1779
-transfer_state = 1775 transfer_state = 1776 transfer_state = 1777 transfer_state = 1779
+#add_ideas = {
+        #MINISTER_85012
+        #MINISTER_85018
+        #MINISTER_85003
+        #MINISTER_85004
+        #MINISTER_85005
+        #MINISTER_85006
+        #MINISTER_85007
+        #MINISTER_85008
+        #MINISTER_85009
+        #MINISTER_85010
+#}
+
+add_state_core = 1775
+add_state_core = 1776
+add_state_core = 1777
+add_state_core = 1778
+add_state_core = 1779
+
+transfer_state = 1775
+transfer_state = 1776
+transfer_state = 1777
+transfer_state = 1779
+
+

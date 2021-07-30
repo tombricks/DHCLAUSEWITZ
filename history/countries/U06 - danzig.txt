@@ -1,0 +1,51 @@
+# U06
+capital = 181
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 7 }
+set_variable = { political_left = 3 }
+set_variable = { free_market = 8 }
+set_variable = { freedom = 10 }
+set_variable = { professional_army = 1 }
+set_variable = { defense_lobby = 3 }
+set_variable = { interventionism = 2 }
+
+set_variable = { money = 50 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_845011
+        #MINISTER_845012
+        #MINISTER_845013
+        #MINISTER_845020
+        #MINISTER_845005
+        #MINISTER_845021
+        #MINISTER_845022
+        #MINISTER_845023
+        #MINISTER_845024
+        #MINISTER_845025
+#}
+
+add_state_core = 181
+
+transfer_state = 181
+
+

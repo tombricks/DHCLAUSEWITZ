@@ -1,0 +1,100 @@
+# FIN
+capital = 525
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 9 }
+set_variable = { political_left = 1 }
+set_variable = { free_market = 9 }
+set_variable = { freedom = 7 }
+set_variable = { professional_army = 4 }
+set_variable = { defense_lobby = 9 }
+set_variable = { interventionism = 4 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_145001
+        #MINISTER_145002
+        #MINISTER_145003
+        #MINISTER_145004
+        #MINISTER_145005
+        #MINISTER_145006
+        #MINISTER_145007
+        #MINISTER_145008
+        #MINISTER_145009
+        #MINISTER_145010
+#}
+
+add_state_core = 511
+add_state_core = 512
+add_state_core = 513
+add_state_core = 514
+add_state_core = 515
+add_state_core = 516
+add_state_core = 517
+add_state_core = 518
+add_state_core = 519
+add_state_core = 520
+add_state_core = 521
+add_state_core = 522
+add_state_core = 523
+add_state_core = 524
+add_state_core = 525
+add_state_core = 526
+add_state_core = 527
+add_state_core = 528
+add_state_core = 529
+add_state_core = 530
+add_state_core = 531
+add_state_core = 532
+add_state_core = 533
+add_state_core = 536
+add_state_core = 537
+add_state_core = 538
+add_state_core = 539
+add_state_core = 540
+
+transfer_state = 511
+transfer_state = 512
+transfer_state = 513
+transfer_state = 514
+transfer_state = 515
+transfer_state = 516
+transfer_state = 517
+transfer_state = 518
+transfer_state = 519
+transfer_state = 520
+transfer_state = 521
+transfer_state = 522
+transfer_state = 523
+transfer_state = 524
+transfer_state = 525
+transfer_state = 526
+transfer_state = 527
+transfer_state = 528
+transfer_state = 529
+transfer_state = 530
+transfer_state = 531
+transfer_state = 532
+transfer_state = 533
+
+

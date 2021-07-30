@@ -1,0 +1,61 @@
+# LAT
+capital = 264
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 5 }
+set_variable = { political_left = 2 }
+set_variable = { free_market = 5 }
+set_variable = { freedom = 5 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 5 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_135001
+        #MINISTER_135002
+        #MINISTER_135003
+        #MINISTER_135004
+        #MINISTER_135005
+        #MINISTER_135006
+        #MINISTER_135007
+        #MINISTER_135008
+        #MINISTER_135009
+        #MINISTER_135010
+#}
+
+add_state_core = 264
+add_state_core = 265
+add_state_core = 266
+add_state_core = 267
+add_state_core = 268
+add_state_core = 269
+
+transfer_state = 264
+transfer_state = 265
+transfer_state = 266
+transfer_state = 267
+transfer_state = 268
+transfer_state = 269
+
+

@@ -1,0 +1,110 @@
+# ROM
+capital = 316
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 7 }
+set_variable = { political_left = 6 }
+set_variable = { free_market = 4 }
+set_variable = { freedom = 4 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 6 }
+
+set_variable = { money = 15 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_110001
+        #MINISTER_110197
+        #MINISTER_110003
+        #MINISTER_110052
+        #MINISTER_110199
+        #MINISTER_110006
+        #MINISTER_110007
+        #MINISTER_110008
+        #MINISTER_110009
+        #MINISTER_110010
+#}
+
+add_state_core = 285
+add_state_core = 286
+add_state_core = 287
+add_state_core = 288
+add_state_core = 289
+add_state_core = 291
+add_state_core = 292
+add_state_core = 293
+add_state_core = 295
+add_state_core = 296
+add_state_core = 297
+add_state_core = 298
+add_state_core = 299
+add_state_core = 300
+add_state_core = 301
+add_state_core = 302
+add_state_core = 303
+add_state_core = 304
+add_state_core = 305
+add_state_core = 306
+add_state_core = 307
+add_state_core = 308
+add_state_core = 309
+add_state_core = 310
+add_state_core = 311
+add_state_core = 312
+add_state_core = 313
+add_state_core = 314
+add_state_core = 315
+add_state_core = 316
+add_state_core = 621
+
+transfer_state = 285
+transfer_state = 286
+transfer_state = 287
+transfer_state = 288
+transfer_state = 289
+transfer_state = 291
+transfer_state = 292
+transfer_state = 293
+transfer_state = 295
+transfer_state = 296
+transfer_state = 297
+transfer_state = 298
+transfer_state = 299
+transfer_state = 300
+transfer_state = 301
+transfer_state = 302
+transfer_state = 303
+transfer_state = 304
+transfer_state = 305
+transfer_state = 306
+transfer_state = 307
+transfer_state = 308
+transfer_state = 309
+transfer_state = 310
+transfer_state = 311
+transfer_state = 312
+transfer_state = 313
+transfer_state = 314
+transfer_state = 315
+transfer_state = 316
+
+

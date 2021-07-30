@@ -1,0 +1,85 @@
+# MEX
+capital = 1974
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 8 }
+set_variable = { political_left = 8 }
+set_variable = { free_market = 6 }
+set_variable = { freedom = 6 }
+set_variable = { professional_army = 2 }
+set_variable = { defense_lobby = 4 }
+set_variable = { interventionism = 3 }
+
+set_variable = { money = 20 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_170283
+        #MINISTER_170284
+        #MINISTER_170003
+        #MINISTER_170004
+        #MINISTER_170005
+        #MINISTER_170006
+        #MINISTER_170007
+        #MINISTER_170008
+        #MINISTER_170009
+        #MINISTER_170010
+#}
+
+add_state_core = 1965
+add_state_core = 1966
+add_state_core = 1967
+add_state_core = 1968
+add_state_core = 1969
+add_state_core = 1970
+add_state_core = 1971
+add_state_core = 1972
+add_state_core = 1973
+add_state_core = 1974
+add_state_core = 1975
+add_state_core = 1976
+add_state_core = 1977
+add_state_core = 1978
+add_state_core = 1979
+add_state_core = 1980
+add_state_core = 1981
+add_state_core = 1982
+
+transfer_state = 1965
+transfer_state = 1966
+transfer_state = 1967
+transfer_state = 1968
+transfer_state = 1969
+transfer_state = 1970
+transfer_state = 1971
+transfer_state = 1972
+transfer_state = 1973
+transfer_state = 1974
+transfer_state = 1975
+transfer_state = 1976
+transfer_state = 1977
+transfer_state = 1978
+transfer_state = 1979
+transfer_state = 1980
+transfer_state = 1981
+transfer_state = 1982
+
+

@@ -1,0 +1,186 @@
+# JAP
+capital = 1552
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 4 }
+set_variable = { political_left = 2 }
+set_variable = { free_market = 4 }
+set_variable = { freedom = 1#3 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 7 }
+set_variable = { interventionism = 8 }
+
+set_variable = { money = 100 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_50001
+        #MINISTER_50323
+        #MINISTER_50259
+        #MINISTER_50300
+        #MINISTER_50078
+        #MINISTER_50006
+        #MINISTER_50007
+        #MINISTER_50008
+        #MINISTER_50009
+        #MINISTER_50010
+#}
+
+add_state_core = 1543
+add_state_core = 1544
+add_state_core = 1545
+add_state_core = 1546
+add_state_core = 1547
+add_state_core = 1548
+add_state_core = 1549
+add_state_core = 1550
+add_state_core = 1551
+add_state_core = 1552
+add_state_core = 1553
+add_state_core = 1554
+add_state_core = 1555
+add_state_core = 1556
+add_state_core = 1557
+add_state_core = 1558
+add_state_core = 1559
+add_state_core = 1560
+add_state_core = 1561
+add_state_core = 1562
+add_state_core = 1563
+add_state_core = 1564
+add_state_core = 1661
+add_state_core = 1662
+add_state_core = 1663
+add_state_core = 1664
+add_state_core = 1672
+add_state_core = 1541
+add_state_core = 1542
+add_state_core = 1228
+add_state_core = 1229
+add_state_core = 1230
+add_state_core = 1231
+add_state_core = 1232
+add_state_core = 1233
+add_state_core = 1221
+add_state_core = 1222
+add_state_core = 1223
+add_state_core = 1224
+add_state_core = 1225
+add_state_core = 1226
+add_state_core = 1227
+add_state_core = 1361
+add_state_core = 1362
+add_state_core = 1363
+add_state_core = 1364
+
+transfer_state = 1219
+transfer_state = 1221
+transfer_state = 1223
+transfer_state = 1224
+transfer_state = 1225
+transfer_state = 1226
+transfer_state = 1227
+transfer_state = 1228
+transfer_state = 1230
+transfer_state = 1231
+transfer_state = 1232
+transfer_state = 1233
+transfer_state = 1361
+transfer_state = 1364
+transfer_state = 1542
+transfer_state = 1543
+transfer_state = 1544
+transfer_state = 1545
+transfer_state = 1546
+transfer_state = 1547
+transfer_state = 1548
+transfer_state = 1549
+transfer_state = 1550
+transfer_state = 1551
+transfer_state = 1552
+transfer_state = 1553
+transfer_state = 1554
+transfer_state = 1555
+transfer_state = 1556
+transfer_state = 1557
+transfer_state = 1558
+transfer_state = 1559
+transfer_state = 1560
+transfer_state = 1561
+transfer_state = 1562
+transfer_state = 1563
+transfer_state = 1564
+transfer_state = 1661
+transfer_state = 1662
+transfer_state = 1663
+transfer_state = 1664
+transfer_state = 1665
+transfer_state = 1666
+transfer_state = 1667
+transfer_state = 1668
+transfer_state = 1669
+transfer_state = 1670
+transfer_state = 1671
+transfer_state = 1672
+transfer_state = 1674
+transfer_state = 1675
+transfer_state = 1676
+transfer_state = 1677
+transfer_state = 1681
+transfer_state = 1684
+transfer_state = 1685
+transfer_state = 1686
+transfer_state = 1222
+transfer_state = 1229
+transfer_state = 1363
+transfer_state = 1216
+transfer_state = 1235
+transfer_state = 1236
+transfer_state = 1245
+transfer_state = 1246
+transfer_state = 1362
+transfer_state = 1338
+
+add_state_claim = 1665
+add_state_claim = 1666
+add_state_claim = 1667
+add_state_claim = 1668
+add_state_claim = 1669
+add_state_claim = 1670
+add_state_claim = 1671
+add_state_claim = 1672
+add_state_claim = 1674
+add_state_claim = 1675
+add_state_claim = 1676
+add_state_claim = 1677
+add_state_claim = 1681
+add_state_claim = 1684
+add_state_claim = 1685
+add_state_claim = 1686
+add_state_claim = 1219
+add_state_claim = 1216
+add_state_claim = 1235
+add_state_claim = 1236
+add_state_claim = 1245
+add_state_claim = 1683
+add_state_claim = 1240
+add_state_claim = 1338
+

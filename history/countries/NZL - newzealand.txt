@@ -1,0 +1,66 @@
+# NZL
+capital = 1721
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 10 }
+set_variable = { political_left = 10 }
+set_variable = { free_market = 8 }
+set_variable = { freedom = 10 }
+set_variable = { professional_army = 2 }
+set_variable = { defense_lobby = 2 }
+set_variable = { interventionism = 6 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_215111
+        #MINISTER_215002
+        #MINISTER_215003
+        #MINISTER_215004
+        #MINISTER_215005
+        #MINISTER_215006
+        #MINISTER_215007
+        #MINISTER_215008
+        #MINISTER_215009
+        #MINISTER_215010
+#}
+
+add_state_core = 1718
+add_state_core = 1719
+add_state_core = 1720
+add_state_core = 1721
+add_state_core = 1722
+add_state_core = 1723
+
+transfer_state = 1718
+transfer_state = 1719
+transfer_state = 1720
+transfer_state = 1721
+transfer_state = 1722
+transfer_state = 1723
+transfer_state = 1731
+transfer_state = 1732
+transfer_state = 1741
+transfer_state = 1742
+transfer_state = 1748
+
+

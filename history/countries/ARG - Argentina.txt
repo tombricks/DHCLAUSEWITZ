@@ -1,34 +1,87 @@
+# ARG
 capital = 2050
 set_stability = 1.0
 set_war_support = 1.0
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
-	election_frequency = 48
-	elections_allowed = no
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
 }
 
 create_country_leader = {
-	name = "GENERIC"
-	desc = ""
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "1965.1.1"
-	ideology = neutrality_ideology
-	traits = {
-	}
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
 }
 
 set_variable = { democratic = 5 }
-set_variable = { political_left = 5 }
-set_variable = { free_market = 5 }
-set_variable = { freedom = 5 }
-set_variable = { professional_army = 5 }
-set_variable = { defense_lobby = 5 }
-set_variable = { interventionism = 5 }
+set_variable = { political_left = 3 }
+set_variable = { free_market = 8 }
+set_variable = { freedom = 6 }
+set_variable = { professional_army = 4 }
+set_variable = { defense_lobby = 6 }
+set_variable = { interventionism = 3 }
 
 set_variable = { money = 20 }
 set_variable = { dissent = 20 }
 
-add_state_core = 2026 add_state_core = 2027 add_state_core = 2028 add_state_core = 2029 add_state_core = 2034 add_state_core = 2035 add_state_core = 2036 add_state_core = 2037 add_state_core = 2038 add_state_core = 2039 add_state_core = 2043 add_state_core = 2044 add_state_core = 2045 add_state_core = 2048 add_state_core = 2049 add_state_core = 2050 add_state_core = 2053 add_state_core = 2054 add_state_core = 2055 add_state_core = 2056
-transfer_state = 2026 transfer_state = 2027 transfer_state = 2028 transfer_state = 2029 transfer_state = 2034 transfer_state = 2035 transfer_state = 2036 transfer_state = 2037 transfer_state = 2038 transfer_state = 2039 transfer_state = 2044 transfer_state = 2048 transfer_state = 2049 transfer_state = 2050 transfer_state = 2053 transfer_state = 2054 transfer_state = 2055 transfer_state = 2056
+#add_ideas = {
+        #MINISTER_165001
+        #MINISTER_165002
+        #MINISTER_165003
+        #MINISTER_165004
+        #MINISTER_165005
+        #MINISTER_165006
+        #MINISTER_165007
+        #MINISTER_165008
+        #MINISTER_165009
+        #MINISTER_165010
+#}
+
+add_state_core = 2026
+add_state_core = 2027
+add_state_core = 2028
+add_state_core = 2029
+add_state_core = 2034
+add_state_core = 2035
+add_state_core = 2036
+add_state_core = 2037
+add_state_core = 2038
+add_state_core = 2039
+add_state_core = 2043
+add_state_core = 2044
+add_state_core = 2045
+add_state_core = 2048
+add_state_core = 2049
+add_state_core = 2050
+add_state_core = 2053
+add_state_core = 2054
+add_state_core = 2055
+add_state_core = 2056
+
+transfer_state = 2026
+transfer_state = 2027
+transfer_state = 2028
+transfer_state = 2029
+transfer_state = 2034
+transfer_state = 2035
+transfer_state = 2036
+transfer_state = 2037
+transfer_state = 2038
+transfer_state = 2039
+transfer_state = 2044
+transfer_state = 2048
+transfer_state = 2049
+transfer_state = 2050
+transfer_state = 2053
+transfer_state = 2054
+transfer_state = 2055
+transfer_state = 2056
+
+

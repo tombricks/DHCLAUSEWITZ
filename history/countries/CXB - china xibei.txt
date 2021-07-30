@@ -1,0 +1,77 @@
+# CHI
+capital = 1264
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 3 }
+set_variable = { political_left = 4 }
+set_variable = { free_market = 3 }
+set_variable = { freedom = 3 }
+set_variable = { professional_army = 2 }
+set_variable = { defense_lobby = 10 }
+set_variable = { interventionism = 3 }
+
+set_variable = { money = 50 }
+set_variable = { dissent = 40 }
+
+#add_ideas = {
+        #MINISTER_610001
+        #MINISTER_610002
+        #MINISTER_610003
+        #MINISTER_610004
+        #MINISTER_610005
+        #MINISTER_610006
+        #MINISTER_610007
+        #MINISTER_610008
+        #MINISTER_610009
+        #MINISTER_610010
+#}
+
+add_state_core = 1256
+add_state_core = 1262
+add_state_core = 1263
+add_state_core = 1264
+add_state_core = 1265
+add_state_core = 1266
+add_state_core = 1268
+add_state_core = 1269
+add_state_core = 1270
+add_state_core = 1271
+add_state_core = 1272
+add_state_core = 1283
+add_state_core = 1284
+add_state_core = 1285
+
+transfer_state = 1256
+transfer_state = 1262
+transfer_state = 1263
+transfer_state = 1264
+transfer_state = 1265
+transfer_state = 1266
+transfer_state = 1268
+transfer_state = 1269
+transfer_state = 1270
+transfer_state = 1271
+transfer_state = 1272
+transfer_state = 1283
+transfer_state = 1284
+transfer_state = 1285
+
+

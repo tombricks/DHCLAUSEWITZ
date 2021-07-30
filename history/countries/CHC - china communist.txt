@@ -1,0 +1,241 @@
+# CHC
+capital = 1354
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 4 }
+set_variable = { political_left = 8 }
+set_variable = { free_market = 4 }
+set_variable = { freedom = 4 }
+set_variable = { professional_army = 2 }
+set_variable = { defense_lobby = 10 }
+set_variable = { interventionism = 5 }
+
+set_variable = { money = 50 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_260838
+        #MINISTER_260839
+        #MINISTER_260861
+        #MINISTER_260840
+        #MINISTER_260841
+        #MINISTER_260855
+        #MINISTER_260846
+        #MINISTER_260847
+        #MINISTER_260830
+        #MINISTER_260831
+#}
+
+add_state_core = 1255
+add_state_core = 1259
+add_state_core = 1260
+add_state_core = 1256
+add_state_core = 1257
+add_state_core = 1258
+add_state_core = 1261
+add_state_core = 1262
+add_state_core = 1267
+add_state_core = 1291
+add_state_core = 1292
+add_state_core = 1293
+add_state_core = 1296
+add_state_core = 1297
+add_state_core = 1298
+add_state_core = 1299
+add_state_core = 1300
+add_state_core = 1301
+add_state_core = 1302
+add_state_core = 1303
+add_state_core = 1304
+add_state_core = 1305
+add_state_core = 1306
+add_state_core = 1307
+add_state_core = 1308
+add_state_core = 1309
+add_state_core = 1310
+add_state_core = 1311
+add_state_core = 1312
+add_state_core = 1313
+add_state_core = 1314
+add_state_core = 1315
+add_state_core = 1316
+add_state_core = 1317
+add_state_core = 1318
+add_state_core = 1319
+add_state_core = 1320
+add_state_core = 1321
+add_state_core = 1322
+add_state_core = 1323
+add_state_core = 1324
+add_state_core = 1325
+add_state_core = 1326
+add_state_core = 1333
+add_state_core = 1334
+add_state_core = 1335
+add_state_core = 1336
+add_state_core = 1337
+add_state_core = 1338
+add_state_core = 1339
+add_state_core = 1340
+add_state_core = 1341
+add_state_core = 1342
+add_state_core = 1343
+add_state_core = 1344
+add_state_core = 1345
+add_state_core = 1346
+add_state_core = 1347
+add_state_core = 1348
+add_state_core = 1349
+add_state_core = 1350
+add_state_core = 1351
+add_state_core = 1352
+add_state_core = 1353
+add_state_core = 1354
+add_state_core = 1355
+add_state_core = 1356
+add_state_core = 1357
+add_state_core = 1358
+add_state_core = 1359
+add_state_core = 1360
+add_state_core = 1384
+add_state_core = 1385
+add_state_core = 1386
+add_state_core = 1387
+add_state_core = 1388
+add_state_core = 1389
+add_state_core = 1390
+add_state_core = 1361
+add_state_core = 1365
+add_state_core = 1367
+add_state_core = 1368
+add_state_core = 1369
+add_state_core = 1370
+add_state_core = 1373
+add_state_core = 1374
+add_state_core = 1375
+add_state_core = 1376
+add_state_core = 1377
+add_state_core = 1378
+add_state_core = 1379
+add_state_core = 1380
+add_state_core = 1381
+add_state_core = 1382
+add_state_core = 1383
+add_state_core = 1241
+add_state_core = 1242
+add_state_core = 1243
+add_state_core = 1244
+add_state_core = 1245
+add_state_core = 1246
+add_state_core = 1247
+add_state_core = 1248
+add_state_core = 1249
+add_state_core = 1250
+add_state_core = 1251
+add_state_core = 1252
+add_state_core = 1253
+add_state_core = 1254
+add_state_core = 1327
+add_state_core = 1328
+add_state_core = 1329
+add_state_core = 1330
+add_state_core = 1331
+add_state_core = 1332
+add_state_core = 1197
+add_state_core = 1198
+add_state_core = 1199
+add_state_core = 1200
+add_state_core = 1201
+add_state_core = 1202
+add_state_core = 1203
+add_state_core = 1204
+add_state_core = 1205
+add_state_core = 1206
+add_state_core = 1207
+add_state_core = 1208
+add_state_core = 1209
+add_state_core = 1210
+add_state_core = 1211
+add_state_core = 1212
+add_state_core = 1213
+add_state_core = 1214
+add_state_core = 1215
+add_state_core = 1216
+add_state_core = 1217
+add_state_core = 1218
+add_state_core = 1220
+add_state_core = 1235
+add_state_core = 1236
+add_state_core = 1237
+add_state_core = 1263
+add_state_core = 1264
+add_state_core = 1265
+add_state_core = 1266
+add_state_core = 1268
+add_state_core = 1269
+add_state_core = 1270
+add_state_core = 1271
+add_state_core = 1272
+add_state_core = 1283
+add_state_core = 1284
+add_state_core = 1285
+add_state_core = 1286
+add_state_core = 1287
+add_state_core = 1288
+add_state_core = 1289
+add_state_core = 1290
+add_state_core = 1294
+add_state_core = 1295
+add_state_core = 1273
+add_state_core = 1274
+add_state_core = 1275
+add_state_core = 1277
+add_state_core = 1279
+add_state_core = 1280
+add_state_core = 1281
+add_state_core = 1282
+add_state_core = 1276
+add_state_core = 1278
+add_state_core = 1219
+add_state_core = 1238
+add_state_core = 1239
+add_state_core = 1240
+add_state_core = 1371
+add_state_core = 1372
+add_state_core = 1362
+add_state_core = 1363
+add_state_core = 1364
+
+transfer_state = 1344
+transfer_state = 1357
+transfer_state = 1345
+transfer_state = 1352
+transfer_state = 1349
+transfer_state = 1359
+transfer_state = 1322
+transfer_state = 1325
+transfer_state = 1314
+transfer_state = 1355
+transfer_state = 1354
+
+add_state_claim = 1455
+add_state_claim = 1458
+

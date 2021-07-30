@@ -1,0 +1,73 @@
+# IRQ
+capital = 1034
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 4 }
+set_variable = { political_left = 5 }
+set_variable = { free_market = 6 }
+set_variable = { freedom = 4 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 2 }
+set_variable = { interventionism = 6 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_365160
+        #MINISTER_365002
+        #MINISTER_365003
+        #MINISTER_365004
+        #MINISTER_365005
+        #MINISTER_365006
+        #MINISTER_365007
+        #MINISTER_365008
+        #MINISTER_365009
+        #MINISTER_365010
+#}
+
+add_state_core = 1027
+add_state_core = 1028
+add_state_core = 1029
+add_state_core = 1030
+add_state_core = 1031
+add_state_core = 1032
+add_state_core = 1033
+add_state_core = 1034
+add_state_core = 1035
+add_state_core = 1036
+add_state_core = 1037
+add_state_core = 1041
+add_state_core = 1089
+
+transfer_state = 1027
+transfer_state = 1028
+transfer_state = 1029
+transfer_state = 1030
+transfer_state = 1031
+transfer_state = 1032
+transfer_state = 1033
+transfer_state = 1034
+transfer_state = 1035
+transfer_state = 1036
+transfer_state = 1037
+
+

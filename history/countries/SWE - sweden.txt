@@ -1,0 +1,82 @@
+# SWE
+capital = 2159
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 10 }
+set_variable = { political_left = 10 }
+set_variable = { free_market = 7 }
+set_variable = { freedom = 6 }
+set_variable = { professional_army = 3 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 4 }
+
+set_variable = { money = 20 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_40001
+        #MINISTER_40012
+        #MINISTER_40017
+        #MINISTER_40026
+        #MINISTER_40037
+        #MINISTER_40006
+        #MINISTER_40007
+        #MINISTER_40008
+        #MINISTER_40009
+        #MINISTER_40010
+#}
+
+add_state_core = 526
+add_state_core = 2152
+add_state_core = 2153
+add_state_core = 2154
+add_state_core = 2155
+add_state_core = 2156
+add_state_core = 2157
+add_state_core = 2158
+add_state_core = 2159
+add_state_core = 2160
+add_state_core = 2161
+add_state_core = 2162
+add_state_core = 2163
+add_state_core = 2164
+add_state_core = 2165
+add_state_core = 2166
+add_state_core = 2167
+
+transfer_state = 2152
+transfer_state = 2153
+transfer_state = 2154
+transfer_state = 2155
+transfer_state = 2156
+transfer_state = 2157
+transfer_state = 2158
+transfer_state = 2159
+transfer_state = 2160
+transfer_state = 2161
+transfer_state = 2162
+transfer_state = 2163
+transfer_state = 2164
+transfer_state = 2165
+transfer_state = 2166
+transfer_state = 2167
+
+

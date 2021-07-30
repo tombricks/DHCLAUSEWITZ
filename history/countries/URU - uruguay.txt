@@ -1,0 +1,53 @@
+# URU
+capital = 2052
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 5 }
+set_variable = { political_left = 2 }
+set_variable = { free_market = 5 }
+set_variable = { freedom = 5 }
+set_variable = { professional_army = 2 }
+set_variable = { defense_lobby = 4 }
+set_variable = { interventionism = 1 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_195001
+        #MINISTER_195002
+        #MINISTER_195003
+        #MINISTER_195004
+        #MINISTER_195005
+        #MINISTER_195006
+        #MINISTER_195007
+        #MINISTER_195008
+        #MINISTER_195009
+        #MINISTER_195010
+#}
+
+add_state_core = 2051
+add_state_core = 2052
+
+transfer_state = 2051
+transfer_state = 2052
+
+

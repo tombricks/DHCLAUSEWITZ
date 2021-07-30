@@ -1,34 +1,125 @@
+# AST
 capital = 1707
 set_stability = 1.0
 set_war_support = 1.0
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
-	election_frequency = 48
-	elections_allowed = no
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
 }
 
 create_country_leader = {
-	name = "GENERIC"
-	desc = ""
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "1965.1.1"
-	ideology = neutrality_ideology
-	traits = {
-	}
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
 }
 
-set_variable = { democratic = 5 }
-set_variable = { political_left = 5 }
-set_variable = { free_market = 5 }
-set_variable = { freedom = 5 }
-set_variable = { professional_army = 5 }
-set_variable = { defense_lobby = 5 }
-set_variable = { interventionism = 5 }
+set_variable = { democratic = 9 }
+set_variable = { political_left = 1 }
+set_variable = { free_market = 8 }
+set_variable = { freedom = 10 }
+set_variable = { professional_army = 2 }
+set_variable = { defense_lobby = 2 }
+set_variable = { interventionism = 6 }
 
 set_variable = { money = 20 }
 set_variable = { dissent = 20 }
 
-add_state_core = 1688 add_state_core = 1689 add_state_core = 1690 add_state_core = 1691 add_state_core = 1692 add_state_core = 1693 add_state_core = 1694 add_state_core = 1695 add_state_core = 1696 add_state_core = 1697 add_state_core = 1698 add_state_core = 1699 add_state_core = 1700 add_state_core = 1701 add_state_core = 1702 add_state_core = 1703 add_state_core = 1704 add_state_core = 1705 add_state_core = 1706 add_state_core = 1707 add_state_core = 1708 add_state_core = 1709 add_state_core = 1710 add_state_core = 1711 add_state_core = 1712 add_state_core = 1713 add_state_core = 1714 add_state_core = 1715 add_state_core = 1716 add_state_core = 1717
-transfer_state = 1234 transfer_state = 1587 transfer_state = 1602 transfer_state = 1603 transfer_state = 1604 transfer_state = 1605 transfer_state = 1606 transfer_state = 1607 transfer_state = 1608 transfer_state = 1609 transfer_state = 1610 transfer_state = 1688 transfer_state = 1689 transfer_state = 1690 transfer_state = 1691 transfer_state = 1692 transfer_state = 1693 transfer_state = 1694 transfer_state = 1695 transfer_state = 1696 transfer_state = 1697 transfer_state = 1698 transfer_state = 1699 transfer_state = 1700 transfer_state = 1701 transfer_state = 1702 transfer_state = 1703 transfer_state = 1704 transfer_state = 1705 transfer_state = 1706 transfer_state = 1707 transfer_state = 1708 transfer_state = 1709 transfer_state = 1710 transfer_state = 1711 transfer_state = 1712 transfer_state = 1713 transfer_state = 1714 transfer_state = 1715 transfer_state = 1716 transfer_state = 1717 transfer_state = 1724 transfer_state = 1727 transfer_state = 1682
+#add_ideas = {
+        #MINISTER_225001
+        #MINISTER_225002
+        #MINISTER_225003
+        #MINISTER_225004
+        #MINISTER_225005
+        #MINISTER_225006
+        #MINISTER_225179
+        #MINISTER_225008
+        #MINISTER_225009
+        #MINISTER_225010
+#}
+
+add_state_core = 1688
+add_state_core = 1689
+add_state_core = 1690
+add_state_core = 1691
+add_state_core = 1692
+add_state_core = 1693
+add_state_core = 1694
+add_state_core = 1695
+add_state_core = 1696
+add_state_core = 1697
+add_state_core = 1698
+add_state_core = 1699
+add_state_core = 1700
+add_state_core = 1701
+add_state_core = 1702
+add_state_core = 1703
+add_state_core = 1704
+add_state_core = 1705
+add_state_core = 1706
+add_state_core = 1707
+add_state_core = 1708
+add_state_core = 1709
+add_state_core = 1710
+add_state_core = 1711
+add_state_core = 1712
+add_state_core = 1713
+add_state_core = 1714
+add_state_core = 1715
+add_state_core = 1716
+add_state_core = 1717
+
+transfer_state = 1234
+transfer_state = 1587
+transfer_state = 1602
+transfer_state = 1603
+transfer_state = 1604
+transfer_state = 1605
+transfer_state = 1606
+transfer_state = 1607
+transfer_state = 1608
+transfer_state = 1609
+transfer_state = 1610
+transfer_state = 1688
+transfer_state = 1689
+transfer_state = 1690
+transfer_state = 1691
+transfer_state = 1692
+transfer_state = 1693
+transfer_state = 1694
+transfer_state = 1695
+transfer_state = 1696
+transfer_state = 1697
+transfer_state = 1698
+transfer_state = 1699
+transfer_state = 1700
+transfer_state = 1701
+transfer_state = 1702
+transfer_state = 1703
+transfer_state = 1704
+transfer_state = 1705
+transfer_state = 1706
+transfer_state = 1707
+transfer_state = 1708
+transfer_state = 1709
+transfer_state = 1710
+transfer_state = 1711
+transfer_state = 1712
+transfer_state = 1713
+transfer_state = 1714
+transfer_state = 1715
+transfer_state = 1716
+transfer_state = 1717
+transfer_state = 1724
+transfer_state = 1725
+transfer_state = 1726
+transfer_state = 1727
+transfer_state = 1682
+
+

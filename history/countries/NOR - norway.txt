@@ -1,0 +1,79 @@
+# NOR
+capital = 483
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 9 }
+set_variable = { political_left = 9 }
+set_variable = { free_market = 7 }
+set_variable = { freedom = 7 }
+set_variable = { professional_army = 3 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 2 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_65001
+        #MINISTER_65002
+        #MINISTER_65003
+        #MINISTER_65004
+        #MINISTER_65005
+        #MINISTER_65006
+        #MINISTER_65007
+        #MINISTER_65008
+        #MINISTER_65009
+        #MINISTER_65010
+#}
+
+add_state_core = 483
+add_state_core = 484
+add_state_core = 485
+add_state_core = 486
+add_state_core = 487
+add_state_core = 488
+add_state_core = 489
+add_state_core = 490
+add_state_core = 491
+add_state_core = 492
+add_state_core = 493
+add_state_core = 494
+add_state_core = 495
+add_state_core = 496
+add_state_core = 497
+
+transfer_state = 483
+transfer_state = 484
+transfer_state = 485
+transfer_state = 486
+transfer_state = 487
+transfer_state = 488
+transfer_state = 489
+transfer_state = 490
+transfer_state = 491
+transfer_state = 492
+transfer_state = 493
+transfer_state = 494
+transfer_state = 495
+transfer_state = 496
+transfer_state = 497
+
+

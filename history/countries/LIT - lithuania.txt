@@ -1,0 +1,62 @@
+# LIT
+capital = 262
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 5 }
+set_variable = { political_left = 2 }
+set_variable = { free_market = 5 }
+set_variable = { freedom = 5 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 5 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_140001
+        #MINISTER_140002
+        #MINISTER_140003
+        #MINISTER_140004
+        #MINISTER_140005
+        #MINISTER_140006
+        #MINISTER_140007
+        #MINISTER_140008
+        #MINISTER_140009
+        #MINISTER_140010
+#}
+
+add_state_core = 252
+add_state_core = 255
+add_state_core = 258
+add_state_core = 259
+add_state_core = 260
+add_state_core = 261
+add_state_core = 262
+add_state_core = 263
+
+transfer_state = 259
+transfer_state = 260
+transfer_state = 261
+transfer_state = 262
+transfer_state = 263
+
+

@@ -1,34 +1,65 @@
+# CHL
 capital = 2023
 set_stability = 1.0
 set_war_support = 1.0
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.1.1"
-	election_frequency = 48
-	elections_allowed = no
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
 }
 
 create_country_leader = {
-	name = "GENERIC"
-	desc = ""
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "1965.1.1"
-	ideology = neutrality_ideology
-	traits = {
-	}
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
 }
 
-set_variable = { democratic = 5 }
-set_variable = { political_left = 5 }
-set_variable = { free_market = 5 }
-set_variable = { freedom = 5 }
-set_variable = { professional_army = 5 }
+set_variable = { democratic = 7 }
+set_variable = { political_left = 6 }
+set_variable = { free_market = 8 }
+set_variable = { freedom = 7 }
+set_variable = { professional_army = 4 }
 set_variable = { defense_lobby = 5 }
-set_variable = { interventionism = 5 }
+set_variable = { interventionism = 2 }
 
-set_variable = { money = 70 }
+set_variable = { money = 20 }
 set_variable = { dissent = 20 }
 
-add_state_core = 2022 add_state_core = 2023 add_state_core = 2024 add_state_core = 2025 add_state_core = 2030 add_state_core = 2031 add_state_core = 2032 add_state_core = 2043
-transfer_state = 2022 transfer_state = 2023 transfer_state = 2024 transfer_state = 2025 transfer_state = 2030 transfer_state = 2031 transfer_state = 2032 transfer_state = 2043
+#add_ideas = {
+        #MINISTER_210001
+        #MINISTER_210002
+        #MINISTER_210003
+        #MINISTER_210004
+        #MINISTER_210005
+        #MINISTER_210006
+        #MINISTER_210007
+        #MINISTER_210008
+        #MINISTER_210009
+        #MINISTER_210010
+#}
+
+add_state_core = 2022
+add_state_core = 2023
+add_state_core = 2024
+add_state_core = 2025
+add_state_core = 2030
+add_state_core = 2031
+add_state_core = 2032
+add_state_core = 2043
+
+transfer_state = 2022
+transfer_state = 2023
+transfer_state = 2024
+transfer_state = 2025
+transfer_state = 2030
+transfer_state = 2031
+transfer_state = 2032
+transfer_state = 2043
+
+

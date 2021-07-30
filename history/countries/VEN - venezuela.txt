@@ -1,0 +1,62 @@
+# VEN
+capital = 1993
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 6 }
+set_variable = { political_left = 1 }
+set_variable = { free_market = 7 }
+set_variable = { freedom = 5 }
+set_variable = { professional_army = 6 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 3 }
+
+set_variable = { money = 20 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_180106
+        #MINISTER_180101
+        #MINISTER_180061
+        #MINISTER_180004
+        #MINISTER_180005
+        #MINISTER_180006
+        #MINISTER_180007
+        #MINISTER_180008
+        #MINISTER_180009
+        #MINISTER_180010
+#}
+
+add_state_core = 1988
+add_state_core = 1989
+add_state_core = 1992
+add_state_core = 1993
+add_state_core = 1995
+add_state_core = 1996
+add_state_core = 1998
+
+transfer_state = 1988
+transfer_state = 1989
+transfer_state = 1992
+transfer_state = 1993
+transfer_state = 1995
+transfer_state = 1996
+
+

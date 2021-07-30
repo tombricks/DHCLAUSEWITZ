@@ -1,0 +1,69 @@
+# DEN
+capital = 294
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 10 }
+set_variable = { political_left = 10 }
+set_variable = { free_market = 6 }
+set_variable = { freedom = 8 }
+set_variable = { professional_army = 3 }
+set_variable = { defense_lobby = 1 }
+set_variable = { interventionism = 3 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_75001
+        #MINISTER_75002
+        #MINISTER_75003
+        #MINISTER_75004
+        #MINISTER_75005
+        #MINISTER_75006
+        #MINISTER_75007
+        #MINISTER_75008
+        #MINISTER_75009
+        #MINISTER_75163
+#}
+
+add_state_core = 1
+add_state_core = 2
+add_state_core = 3
+add_state_core = 216
+add_state_core = 217
+add_state_core = 218
+add_state_core = 219
+add_state_core = 220
+add_state_core = 294
+add_state_core = 1783
+
+transfer_state = 1
+transfer_state = 2
+transfer_state = 3
+transfer_state = 216
+transfer_state = 217
+transfer_state = 218
+transfer_state = 219
+transfer_state = 220
+transfer_state = 294
+transfer_state = 1783
+
+

@@ -1,0 +1,107 @@
+# TUR
+capital = 1075
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 6 }
+set_variable = { political_left = 2 }
+set_variable = { free_market = 6 }
+set_variable = { freedom = 4 }
+set_variable = { professional_army = 5 }
+set_variable = { defense_lobby = 6 }
+set_variable = { interventionism = 3 }
+
+set_variable = { money = 20 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_45001
+        #MINISTER_45002
+        #MINISTER_45003
+        #MINISTER_45004
+        #MINISTER_45005
+        #MINISTER_45006
+        #MINISTER_45007
+        #MINISTER_45008
+        #MINISTER_45009
+        #MINISTER_45010
+#}
+
+add_state_core = 370
+add_state_core = 384
+add_state_core = 385
+add_state_core = 386
+add_state_core = 409
+add_state_core = 1054
+add_state_core = 1055
+add_state_core = 1056
+add_state_core = 1057
+add_state_core = 1058
+add_state_core = 1059
+add_state_core = 1060
+add_state_core = 1061
+add_state_core = 1062
+add_state_core = 1063
+add_state_core = 1064
+add_state_core = 1065
+add_state_core = 1066
+add_state_core = 1067
+add_state_core = 1068
+add_state_core = 1071
+add_state_core = 1072
+add_state_core = 1073
+add_state_core = 1074
+add_state_core = 1075
+add_state_core = 1076
+add_state_core = 1077
+add_state_core = 1078
+add_state_core = 1079
+add_state_core = 397
+
+transfer_state = 384
+transfer_state = 385
+transfer_state = 386
+transfer_state = 409
+transfer_state = 1055
+transfer_state = 1056
+transfer_state = 1057
+transfer_state = 1058
+transfer_state = 1059
+transfer_state = 1060
+transfer_state = 1061
+transfer_state = 1062
+transfer_state = 1063
+transfer_state = 1064
+transfer_state = 1065
+transfer_state = 1066
+transfer_state = 1067
+transfer_state = 1068
+transfer_state = 1071
+transfer_state = 1072
+transfer_state = 1073
+transfer_state = 1074
+transfer_state = 1075
+transfer_state = 1076
+transfer_state = 1077
+transfer_state = 1078
+transfer_state = 1079
+transfer_state = 397
+
+

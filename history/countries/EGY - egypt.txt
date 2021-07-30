@@ -1,0 +1,108 @@
+# EGY
+capital = 1
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 7 }
+set_variable = { political_left = 3 }
+set_variable = { free_market = 8 }
+set_variable = { freedom = 10 }
+set_variable = { professional_army = 6 }
+set_variable = { defense_lobby = 3 }
+set_variable = { interventionism = 2 }
+
+set_variable = { money = 50 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_340001
+        #MINISTER_340002
+        #MINISTER_340003
+        #MINISTER_340004
+        #MINISTER_340005
+        #MINISTER_340006
+        #MINISTER_340007
+        #MINISTER_340008
+        #MINISTER_340009
+        #MINISTER_340010
+#}
+
+add_state_core = 778
+add_state_core = 779
+add_state_core = 780
+add_state_core = 781
+add_state_core = 782
+add_state_core = 783
+add_state_core = 784
+add_state_core = 785
+add_state_core = 786
+add_state_core = 787
+add_state_core = 788
+add_state_core = 789
+add_state_core = 790
+add_state_core = 791
+add_state_core = 792
+add_state_core = 793
+add_state_core = 794
+add_state_core = 795
+add_state_core = 796
+add_state_core = 797
+add_state_core = 798
+add_state_core = 799
+add_state_core = 800
+add_state_core = 801
+add_state_core = 802
+add_state_core = 1004
+add_state_core = 1005
+add_state_core = 1006
+add_state_core = 1007
+add_state_core = 1009
+
+transfer_state = 778
+transfer_state = 779
+transfer_state = 780
+transfer_state = 781
+transfer_state = 782
+transfer_state = 783
+transfer_state = 784
+transfer_state = 785
+transfer_state = 786
+transfer_state = 787
+transfer_state = 788
+transfer_state = 789
+transfer_state = 790
+transfer_state = 791
+transfer_state = 792
+transfer_state = 793
+transfer_state = 794
+transfer_state = 795
+transfer_state = 796
+transfer_state = 797
+transfer_state = 798
+transfer_state = 799
+transfer_state = 800
+transfer_state = 801
+transfer_state = 802
+transfer_state = 1004
+transfer_state = 1005
+transfer_state = 1006
+transfer_state = 1007
+
+

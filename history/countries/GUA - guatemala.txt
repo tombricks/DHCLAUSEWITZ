@@ -1,0 +1,54 @@
+# GUA
+capital = 2088
+set_stability = 1.0
+set_war_support = 1.0
+
+set_politics = {
+        ruling_party = neutrality
+        last_election = "1933.1.1"
+        election_frequency = 48
+        elections_allowed = no
+}
+
+create_country_leader = {
+        name = "GENERIC"
+        desc = ""
+        picture = "gfx/leaders/leader_unknown.dds"
+        expire = "1965.1.1"
+        ideology = neutrality_ideology
+        traits = {
+        }
+}
+
+set_variable = { democratic = 5 }
+set_variable = { political_left = 2 }
+set_variable = { free_market = 6 }
+set_variable = { freedom = 4 }
+set_variable = { professional_army = 3 }
+set_variable = { defense_lobby = 5 }
+set_variable = { interventionism = 4 }
+
+set_variable = { money = 10 }
+set_variable = { dissent = 20 }
+
+#add_ideas = {
+        #MINISTER_305001
+        #MINISTER_305002
+        #MINISTER_305003
+        #MINISTER_305004
+        #MINISTER_305005
+        #MINISTER_305006
+        #MINISTER_305007
+        #MINISTER_305008
+        #MINISTER_305009
+        #MINISTER_305010
+#}
+
+add_state_core = 2086
+add_state_core = 2087
+add_state_core = 2088
+
+transfer_state = 2087
+transfer_state = 2088
+
+
