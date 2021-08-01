@@ -13,7 +13,7 @@ set_politics = {
 create_country_leader = {
         name = "GENERIC"
         desc = ""
-        picture = "gfx/leaders/leader_unknown.dds"
+        picture = MINISTER_"gfx/leaders/leader_unknown.dds"
         expire = "1965.1.1"
         ideology = neutrality_ideology
         traits = {
@@ -31,18 +31,18 @@ set_variable = { interventionism = 6 }
 set_variable = { money = 15 }
 set_variable = { dissent = 20 }
 
-#add_ideas = {
-        #MINISTER_100086
-        #MINISTER_100092
-        #MINISTER_100003
-        #MINISTER_100004
-        #MINISTER_100005
-        #MINISTER_100006
-        #MINISTER_100007
-        #MINISTER_100008
-        #MINISTER_100009
-        #MINISTER_100010
-#}
+add_ideas = {
+    MINISTER_100086
+    MINISTER_100092
+    MINISTER_100003
+    MINISTER_100004
+    MINISTER_100005
+    MINISTER_100006
+    MINISTER_100007
+    MINISTER_100008
+    MINISTER_100009
+    MINISTER_100010
+}
 
 add_state_core = 327
 add_state_core = 328

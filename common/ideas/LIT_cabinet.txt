@@ -1,0 +1,3058 @@
+ideas = {
+
+    headofstate = {
+
+
+        MINISTER_140001 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28001
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1918.1.1
+                date < 1944.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140011 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28031
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140012 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28032
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140013 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28033
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140014 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28035
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140015 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28036
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140016 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28011
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140017 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28020
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140018 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28019
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140019 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28021
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140020 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28041
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140119 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2824
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140120 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_6950
+
+            available = {
+                LE_minister_allowed = yes
+                date > 1920.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofstate
+                minister_LE
+            }
+        }
+
+    }
+
+    headofgovernment = {
+
+
+        MINISTER_140002 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28002
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1929.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140021 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28042
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140022 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28043
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140023 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28044
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140024 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28014
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1939.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140025 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28035
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1939.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140026 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28006
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140027 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28048
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140028 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28015
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140029 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28020
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140030 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28003
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140031 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28021
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140032 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28053
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140033 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28041
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140121 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_6951
+
+            available = {
+                LE_minister_allowed = yes
+                date > 1920.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_LE
+            }
+        }
+
+
+        MINISTER_140122 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28001
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1945.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+    }
+
+    foreignminister = {
+
+
+        MINISTER_140003 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28003
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140034 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28055
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140035 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28056
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140036 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28043
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140037 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28058
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140038 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28059
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140039 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28035
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140040 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28061
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140041 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28062
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140042 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28063
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140043 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28003
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140044 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28021
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140045 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28053
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140046 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28067
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140047 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28024
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140123 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28031
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1943.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140124 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28107
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140125 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28076
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1935.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+    }
+
+    armamentminister = {
+
+
+        MINISTER_140004 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28004
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140048 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28031
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140049 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28070
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140050 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28071
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140051 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28072
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140052 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28001
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1939.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140053 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28014
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140054 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28075
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140055 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28076
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140056 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28077
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140057 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28078
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140058 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28079
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140059 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28024
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140060 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28081
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140061 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28082
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140126 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9244
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1942.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140127 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28063
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1945.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+    }
+
+    ministerofsecurity = {
+
+
+        MINISTER_140005 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28001
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140062 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28032
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140063 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28084
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140064 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28085
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140065 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28044
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1939.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140066 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28004
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1939.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140067 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28088
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140068 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28089
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140069 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28090
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140070 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28091
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140071 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28015
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140072 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28093
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140073 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28094
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140074 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28025
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140075 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28041
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140076 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28097
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140077 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28098
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1946.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140128 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_6951
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1970.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140129 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9245
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1982.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140130 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9246
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1934.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+    }
+
+    ministerofintelligence = {
+
+
+        MINISTER_140006 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28006
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140078 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28042
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140079 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28033
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140080 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28002
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140081 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28102
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1939.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140082 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28103
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1939.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140083 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28048
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140084 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28105
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140085 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28011
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140086 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28107
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140087 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28108
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140088 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28109
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140089 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28110
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140090 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28111
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140091 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28026
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140131 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28035
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1956.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+    }
+
+    chiefofstaff = {
+
+
+        MINISTER_140007 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28007
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140092 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28043
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140093 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28014
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140094 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28008
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140095 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28036
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140096 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28017
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140097 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28119
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140098 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28027
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140099 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28030
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140132 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_896
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1938.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140133 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_898
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1956.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+    }
+
+    chiefofarmy = {
+
+
+        MINISTER_140008 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28008
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140100 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28122
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140101 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28071
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140102 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28007
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140103 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28126
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140104 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28125
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140105 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28019
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1940.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140106 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28018
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140107 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28027
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140108 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28098
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140134 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9247
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140135 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9248
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1932.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140136 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9249
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1922.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_140137 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9250
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1932.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+    }
+
+    chiefofnavy = {
+
+
+        MINISTER_140009 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28009
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140109 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28056
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140110 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28107
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140111 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28019
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140112 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28029
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140113 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28024
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1941.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_ST
+            }
+        }
+
+    }
+
+    chiefofair = {
+
+
+        MINISTER_140010 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28010
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofair
+                minister_FA
+            }
+        }
+
+
+        MINISTER_140114 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28032
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofair
+                minister_NS
+            }
+        }
+
+
+        MINISTER_140115 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28020
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofair
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140116 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28093
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofair
+                minister_SC
+            }
+        }
+
+
+        MINISTER_140117 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28030
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1938.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofair
+                minister_ST
+            }
+        }
+
+
+        MINISTER_140118 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M28145
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1945.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = LIT
+            }
+
+            traits = {
+                position_chiefofair
+                minister_ST
+            }
+        }
+
+    }
+
+
+}

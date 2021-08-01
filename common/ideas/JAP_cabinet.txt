@@ -1,0 +1,8228 @@
+ideas = {
+
+    headofstate = {
+
+
+        MINISTER_50001 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5001
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1901.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50011 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5207
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1902.1.1
+                date < 1954.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50012 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5011
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1892.1.1
+                date < 1994.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50172 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5001
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1901.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50173 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5001
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1901.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50283 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5001
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1901.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50284 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5001
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1901.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50285 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5001
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1901.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_NS
+            }
+        }
+
+
+        MINISTER_50286 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2786
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1879.1.1
+                date < 1927.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50287 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2786
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1879.1.1
+                date < 1927.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50288 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2786
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1879.1.1
+                date < 1927.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_NS
+            }
+        }
+
+
+        MINISTER_50324 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9135
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1852.1.1
+                date < 1913.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofstate
+                minister_PA
+            }
+        }
+
+    }
+
+    headofgovernment = {
+
+
+        MINISTER_50002 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5002
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1912.1.1
+                date < 1953.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50013 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5033
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1920.1.1
+                date < 1944.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50014 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5034
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1935.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50015 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5035
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1954.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50016 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5036
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1924.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50017 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5037
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1912.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50018 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5038
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1931.1.1
+                date < 1991.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50019 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5039
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1923.1.1
+                date < 1947.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50020 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5003
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1922.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50021 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5041
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1911.1.1
+                date < 1953.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50022 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5042
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1928.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50023 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5043
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1924.1.1
+                date < 1951.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50024 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9935
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1928.1.1
+                date < 1981.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50025 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5027
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1931.1.1
+                date < 1979.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50026 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5028
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1940.1.1
+                date < 1957.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50027 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5029
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1911.1.1
+                date < 1941.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50028 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5030
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1916.1.1
+                date < 1952.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50029 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5031
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1922.1.1
+                date < 1968.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50030 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5032
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1927.1.1
+                date < 1960.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50031 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5012
+
+            available = {
+                LE_minister_allowed = yes
+                date > 1952.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_LE
+            }
+        }
+
+
+        MINISTER_50170 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5034
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1999.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50174 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5046
+
+            available = {
+                SL_minister_allowed = yes
+                date > 1931.1.1
+                date < 1960.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SL
+            }
+        }
+
+
+        MINISTER_50176 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5210
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1928.1.1
+                date < 1974.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50177 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5085
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1940.1.1
+                date < 1988.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50178 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5213
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1943.1.1
+                date < 1957.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50179 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5214
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1935.1.1
+                date < 1982.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50260 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2775
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1914.1.1
+                date < 1932.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50261 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2776
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1900.1.1
+                date < 1922.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50262 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2765
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1899.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50263 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2767
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1904.1.1
+                date < 1927.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50264 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2755
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1905.1.1
+                date < 1924.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50265 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2768
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1894.1.1
+                date < 1943.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50266 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2771
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1882.1.1
+                date < 1923.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50267 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2772
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1893.1.1
+                date < 1941.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50268 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2777
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1915.1.1
+                date < 1934.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ST
+            }
+        }
+
+
+        MINISTER_50269 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2778
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1898.1.1
+                date < 1937.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50270 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2750
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1896.1.1
+                date < 1920.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50271 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2752
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1912.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50272 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2779
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1882.1.1
+                date < 1923.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_NS
+            }
+        }
+
+
+        MINISTER_50273 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2780
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1924.1.1
+                date < 1959.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ST
+            }
+        }
+
+
+        MINISTER_50274 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2762
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1896.1.1
+                date < 1934.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50323 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2759
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1902.1.1
+                date < 1937.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50325 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9136
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1892.1.1
+                date < 1914.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_PA
+            }
+        }
+
+    }
+
+    foreignminister = {
+
+
+        MINISTER_50003 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5003
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1913.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50032 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5011
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1927.1.1
+                date < 1994.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50033 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5046
+
+            available = {
+                SL_minister_allowed = yes
+                date > 1922.1.1
+                date < 1960.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SL
+            }
+        }
+
+
+        MINISTER_50034 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5047
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1909.1.1
+                date < 1966.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50035 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5002
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1903.1.1
+                date < 1953.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50036 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5029
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1902.1.1
+                date < 1941.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50037 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5050
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1922.1.1
+                date < 1958.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50038 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5031
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1913.1.1
+                date < 1968.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50039 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5053
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1917.1.1
+                date < 1972.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50040 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5028
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1931.1.1
+                date < 1957.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50041 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5034
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1926.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50042 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5057
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1966.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50043 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5035
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1910.1.1
+                date < 1954.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50044 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5059
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1912.1.1
+                date < 1965.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50045 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5060
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1915.1.1
+                date < 1947.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50046 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5061
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1920.1.1
+                date < 1962.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50047 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5033
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1911.1.1
+                date < 1944.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50048 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5065
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1917.1.1
+                date < 1951.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50049 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5066
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1924.1.1
+                date < 1963.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50050 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5050
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1922.1.1
+                date < 1958.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50051 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5013
+
+            available = {
+                LE_minister_allowed = yes
+                date > 1936.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_LE
+            }
+        }
+
+
+        MINISTER_50166 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5042
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50171 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5037
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1903.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50180 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5215
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1937.1.1
+                date < 1978.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50181 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5085
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1931.1.1
+                date < 1988.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50182 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5217
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1932.1.1
+                date < 1986.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50183 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5218
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1947.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50184 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5219
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1945.1.1
+                date < 1981.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50248 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2764
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1922.1.1
+                date < 1982.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_50249 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2765
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1890.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50250 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2766
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1901.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50251 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2767
+
+            available = {
+                SL_minister_allowed = yes
+                date > 1895.1.1
+                date < 1927.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SL
+            }
+        }
+
+
+        MINISTER_50252 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2768
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1885.1.1
+                date < 1943.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50253 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2769
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1896.1.1
+                date < 1950.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50254 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2770
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1897.1.1
+                date < 1919.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50255 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2771
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1873.1.1
+                date < 1923.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50256 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2772
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1884.1.1
+                date < 1941.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50257 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5030
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1907.1.1
+                date < 1952.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50258 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2750
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1887.1.1
+                date < 1920.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50259 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2774
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1900.1.1
+                date < 1937.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_foreignminister
+                minister_ML
+            }
+        }
+
+    }
+
+    armamentminister = {
+
+
+        MINISTER_50004 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5004
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1898.1.1
+                date < 1947.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50052 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5069
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1923.1.1
+                date < 1972.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50053 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5070
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1932.1.1
+                date < 1961.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50054 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5071
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1922.1.1
+                date < 1981.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50055 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5072
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1911.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50056 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5073
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1912.1.1
+                date < 1957.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50057 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5031
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1913.1.1
+                date < 1968.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50058 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5030
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1907.1.1
+                date < 1952.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50059 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5032
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1918.1.1
+                date < 1960.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50060 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5071
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1922.1.1
+                date < 1981.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50061 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5079
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1920.1.1
+                date < 1968.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50062 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5080
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1906.1.1
+                date < 1937.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50063 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5081
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1902.1.1
+                date < 1951.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50064 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5082
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1965.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50065 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_unknownminister
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1999.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50066 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5084
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1904.1.1
+                date < 1961.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50067 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5085
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1931.1.1
+                date < 1988.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50068 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5061
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1920.1.1
+                date < 1962.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50069 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5087
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1970.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50070 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5039
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1947.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50071 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5036
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1915.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50072 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5090
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1931.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50073 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5083
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1908.1.1
+                date < 1958.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50074 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5042
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50075 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5093
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1950.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50076 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5094
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1999.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50077 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5014
+
+            available = {
+                LWR_minister_allowed = yes
+                date > 1929.1.1
+                date < 1954.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_LWR
+            }
+        }
+
+
+        MINISTER_50185 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5213
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1934.1.1
+                date < 1966.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50186 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5221
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1920.1.1
+                date < 1983.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50187 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5222
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1928.1.1
+                date < 1985.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50188 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5223
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1936.1.1
+                date < 1976.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50189 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5224
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1940.1.1
+                date < 1977.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50190 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5225
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1953.1.1
+                date < 1994.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50191 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5214
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1926.1.1
+                date < 1982.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50192 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5227
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1936.1.1
+                date < 1984.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50289 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2784
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1892.1.1
+                date < 1930.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50290 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2775
+
+            available = {
+                SL_minister_allowed = yes
+                date > 1905.1.1
+                date < 1932.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SL
+            }
+        }
+
+
+        MINISTER_50291 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2787
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1907.1.1
+                date < 1955.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50292 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2788
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1904.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50293 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2789
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1914.1.1
+                date < 1947.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_50294 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2790
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1893.1.1
+                date < 1955.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50295 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2772
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1884.1.1
+                date < 1941.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50296 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2777
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1906.1.1
+                date < 1934.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_50297 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2791
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1898.1.1
+                date < 1942.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50298 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2792
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1904.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50299 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2793
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1875.1.1
+                date < 1932.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50300 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2778
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1889.1.1
+                date < 1937.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50301 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2794
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1891.1.1
+                date < 1939.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50302 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2795
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1901.1.1
+                date < 1950.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50303 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2780
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1915.1.1
+                date < 1959.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ST
+            }
+        }
+
+
+        MINISTER_50304 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2796
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1891.1.1
+                date < 1948.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50316 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_6083
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1939.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50327 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9686
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1924.1.1
+                date < 1983.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50328 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9687
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1923.1.1
+                date < 1948.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50329 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9688
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1918.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50331 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9690
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1910.1.1
+                date < 1962.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50332 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5107
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1938.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50333 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9691
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1912.1.1
+                date < 1952.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50334 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9692
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1926.1.1
+                date < 1951.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50335 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9693
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1924.1.1
+                date < 1978.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50336 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9694
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1902.1.1
+                date < 1951.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_armamentminister
+                minister_SC
+            }
+        }
+
+    }
+
+    ministerofsecurity = {
+
+
+        MINISTER_50005 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9935
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1919.1.1
+                date < 1981.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50078 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2796
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1891.1.1
+                date < 1948.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50079 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9935
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1919.1.1
+                date < 1981.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50080 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5098
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1923.1.1
+                date < 1953.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50081 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5099
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1921.1.1
+                date < 1956.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50082 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5100
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1912.1.1
+                date < 1968.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50083 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5101
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1927.1.1
+                date < 1969.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50084 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5102
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1919.1.1
+                date < 1980.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50085 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5103
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1929.1.1
+                date < 1969.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50086 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5105
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1916.1.1
+                date < 1956.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50087 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5106
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1915.1.1
+                date < 1945.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50088 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5107
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1938.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50089 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5108
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1924.1.1
+                date < 1978.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50090 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5110
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1925.1.1
+                date < 1983.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50091 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5111
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1912.1.1
+                date < 1963.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50092 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5112
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1913.1.1
+                date < 1951.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50093 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5113
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1923.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50094 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5114
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1929.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50095 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5115
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1920.1.1
+                date < 1970.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50096 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5116
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1916.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50097 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5117
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1922.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50098 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5118
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1922.1.1
+                date < 1969.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50099 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5041
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1902.1.1
+                date < 1953.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50100 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5120
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1924.1.1
+                date < 1980.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50101 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5109
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1911.1.1
+                date < 1948.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50102 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5122
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1924.1.1
+                date < 1967.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50103 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5042
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50104 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5124
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1922.1.1
+                date < 1952.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50105 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5125
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1927.1.1
+                date < 1956.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50106 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5126
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1923.1.1
+                date < 1977.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50107 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5011
+
+            available = {
+                LE_minister_allowed = yes
+                date > 1927.1.1
+                date < 1994.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_LE
+            }
+        }
+
+
+        MINISTER_50175 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5210
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1919.1.1
+                date < 1974.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50193 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5228
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1939.1.1
+                date < 1982.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50194 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5229
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1921.1.1
+                date < 1983.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50195 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5230
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1931.1.1
+                date < 1961.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50196 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5231
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1936.1.1
+                date < 1985.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50197 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5232
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1935.1.1
+                date < 1981.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50198 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5233
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1926.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50199 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5234
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1945.1.1
+                date < 1987.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50305 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2784
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1892.1.1
+                date < 1930.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50306 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2776
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1891.1.1
+                date < 1922.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50307 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2797
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1884.1.1
+                date < 1926.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50308 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2798
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1902.1.1
+                date < 1945.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50309 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2768
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1885.1.1
+                date < 1943.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50310 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2799
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1903.1.1
+                date < 1950.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50311 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2800
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1920.1.1
+                date < 1924.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_ST
+            }
+        }
+
+
+        MINISTER_50312 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_3872
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1885.1.1
+                date < 1919.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50313 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2790
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1893.1.1
+                date < 1955.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50314 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2801
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1902.1.1
+                date < 1936.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50315 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2780
+
+            available = {
+                ST_minister_allowed = yes
+                date > 1915.1.1
+                date < 1959.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_ST
+            }
+        }
+
+
+        MINISTER_50319 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2771
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1873.1.1
+                date < 1923.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50326 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5236
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1912.1.1
+                date < 1968.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50330 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9689
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1955.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_FA
+            }
+        }
+
+    }
+
+    ministerofintelligence = {
+
+
+        MINISTER_50006 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5006
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1967.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50108 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5011
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1927.1.1
+                date < 1994.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50109 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5027
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1922.1.1
+                date < 1979.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50110 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5028
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1931.1.1
+                date < 1957.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50111 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5004
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1898.1.1
+                date < 1947.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50112 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5072
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1911.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50113 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5102
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1919.1.1
+                date < 1980.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50114 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5134
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1945.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50115 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5135
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1920.1.1
+                date < 1974.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50116 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5136
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1895.1.1
+                date < 1939.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50117 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5137
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1925.1.1
+                date < 1974.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50118 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5138
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1928.1.1
+                date < 1991.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50119 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5037
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1903.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50120 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5141
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1922.1.1
+                date < 1947.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50121 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5142
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1923.1.1
+                date < 1971.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50122 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5143
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1912.1.1
+                date < 1967.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50123 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5144
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1916.1.1
+                date < 1973.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50124 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5043
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1915.1.1
+                date < 1951.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50125 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5012
+
+            available = {
+                LE_minister_allowed = yes
+                date > 1943.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_LE
+            }
+        }
+
+
+        MINISTER_50200 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5235
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1918.1.1
+                date < 1971.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50201 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5236
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1912.1.1
+                date < 1968.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50202 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5233
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1926.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50275 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2781
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1899.1.1
+                date < 1920.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50276 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2782
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1903.1.1
+                date < 1919.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50277 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2783
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1887.1.1
+                date < 1920.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50278 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2784
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1892.1.1
+                date < 1930.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50279 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2749
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1899.1.1
+                date < 1930.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50280 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2752
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1903.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50281 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2779
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1873.1.1
+                date < 1923.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50282 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2762
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1887.1.1
+                date < 1934.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50337 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101116
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1925.1.1
+                date < 1928.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50338 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9804
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1928.1.1
+                date < 1930.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50339 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9805
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1929.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50340 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101033
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1931.1.1
+                date < 1932.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50341 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101067
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1935.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50342 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9806
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1936.1.1
+                date < 1937.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50343 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101198
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1940.1.1
+                date < 1941.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50344 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9807
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1942.1.1
+                date < 1945.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50345 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101356
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1935.1.1
+                date < 1936.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50346 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101123
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1936.1.1
+                date < 1937.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50347 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5170
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1932.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50348 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101243
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1932.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50349 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101188
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1933.1.1
+                date < 1934.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50350 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101000
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1938.1.1
+                date < 1940.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50351 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_698
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1942.1.1
+                date < 1943.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50352 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9808
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1942.1.1
+                date < 1944.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50353 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_unknownminister
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1944.1.1
+                date < 1945.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50354 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9883
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_PA
+            }
+        }
+
+    }
+
+    chiefofstaff = {
+
+
+        MINISTER_50007 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5007
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1931.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50126 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5147
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1929.1.1
+                date < 1978.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50127 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5148
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1999.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50128 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5149
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1999.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50129 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5150
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1916.1.1
+                date < 1938.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50130 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5151
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1934.1.1
+                date < 1955.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50131 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5035
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1910.1.1
+                date < 1954.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50132 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5154
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1923.1.1
+                date < 1982.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50133 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5155
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1915.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50134 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5042
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50135 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5157
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1917.1.1
+                date < 1950.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50136 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5017
+
+            available = {
+                LWR_minister_allowed = yes
+                date > 1927.1.1
+                date < 1972.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_LWR
+            }
+        }
+
+
+        MINISTER_50234 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2740
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1885.1.1
+                date < 1925.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50235 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2741
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1899.1.1
+                date < 1942.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50236 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2742
+
+            available = {
+                SL_minister_allowed = yes
+                date > 1889.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SL
+            }
+        }
+
+
+        MINISTER_50237 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2743
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1893.1.1
+                date < 1928.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50238 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2744
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1895.1.1
+                date < 1917.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50239 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2745
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1882.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50240 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2746
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1893.1.1
+                date < 1948.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50241 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2747
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1900.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_NS
+            }
+        }
+
+
+        MINISTER_50242 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2737
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1904.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50243 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2748
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1879.1.1
+                date < 1917.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50244 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2749
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1899.1.1
+                date < 1930.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50245 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2750
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1887.1.1
+                date < 1920.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50246 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2751
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1891.1.1
+                date < 1934.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50247 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2752
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1903.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50320 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2779
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1873.1.1
+                date < 1923.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50355 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9809
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1926.1.1
+                date < 1930.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50357 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9810
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1930.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_PA
+            }
+        }
+
+    }
+
+    chiefofarmy = {
+
+
+        MINISTER_50008 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5007
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1931.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50137 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5018
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1933.1.1
+                date < 1983.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50138 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5160
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1999.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50139 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5144
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1916.1.1
+                date < 1973.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50140 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5163
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1926.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50141 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5164
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1932.1.1
+                date < 1948.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50142 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5155
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1915.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50143 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5042
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50144 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5157
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1917.1.1
+                date < 1950.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50209 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2740
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1885.1.1
+                date < 1925.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50210 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2741
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1899.1.1
+                date < 1942.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50211 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2742
+
+            available = {
+                SL_minister_allowed = yes
+                date > 1889.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SL
+            }
+        }
+
+
+        MINISTER_50212 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2743
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1893.1.1
+                date < 1928.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50213 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2744
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1895.1.1
+                date < 1917.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50214 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2745
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1882.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50215 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2746
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1893.1.1
+                date < 1948.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50216 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2747
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1900.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_NS
+            }
+        }
+
+
+        MINISTER_50217 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2737
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1904.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50218 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2748
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1879.1.1
+                date < 1917.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50219 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2749
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1899.1.1
+                date < 1930.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50220 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2750
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1887.1.1
+                date < 1920.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50221 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2751
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1891.1.1
+                date < 1934.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50222 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2752
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1903.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50356 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9809
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1926.1.1
+                date < 1930.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50358 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9810
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1930.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50359 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_735
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1921.1.1
+                date < 1923.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50360 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101117
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1931.1.1
+                date < 1932.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50361 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5143
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1931.1.1
+                date < 1934.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50362 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5033
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1934.1.1
+                date < 1935.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50363 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101089
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1935.1.1
+                date < 1937.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50364 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5039
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1936.1.1
+                date < 1937.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50365 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101260
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1937.1.1
+                date < 1938.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50366 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101070
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1938.1.1
+                date < 1940.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50367 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5189
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1939.1.1
+                date < 1941.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50368 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5194
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50369 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5038
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50370 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101160
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1945.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50372 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2779
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1873.1.1
+                date < 1923.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_SC
+            }
+        }
+
+    }
+
+    chiefofnavy = {
+
+
+        MINISTER_50009 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5009
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1911.1.1
+                date < 1942.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50145 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5019
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1999.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50146 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5170
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1918.1.1
+                date < 1977.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50147 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5171
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1920.1.1
+                date < 1958.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50148 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5172
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1915.1.1
+                date < 1971.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50149 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5173
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1915.1.1
+                date < 1948.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50150 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5175
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1918.1.1
+                date < 1959.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50167 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5010
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1944.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50168 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101243
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1920.1.1
+                date < 1945.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50169 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101273
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1921.1.1
+                date < 1967.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50223 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2753
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1887.1.1
+                date < 1922.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50224 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2754
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1905.1.1
+                date < 1940.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50225 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2755
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1896.1.1
+                date < 1924.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50226 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2756
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1897.1.1
+                date < 1928.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50227 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5002
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1903.1.1
+                date < 1953.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50228 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2758
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1910.1.1
+                date < 1947.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_NS
+            }
+        }
+
+
+        MINISTER_50229 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2759
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1893.1.1
+                date < 1937.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50230 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2760
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1902.1.1
+                date < 1950.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50231 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2761
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1883.1.1
+                date < 1935.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50232 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2762
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1887.1.1
+                date < 1934.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50233 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2763
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1895.1.1
+                date < 1931.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50317 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_6083
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1939.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_NS
+            }
+        }
+
+
+        MINISTER_50318 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_6083
+
+            available = {
+                SL_minister_allowed = yes
+                date > 1939.1.1
+                date < 1990.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_SL
+            }
+        }
+
+
+        MINISTER_50321 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2779
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1873.1.1
+                date < 1923.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_SC
+            }
+        }
+
+    }
+
+    chiefofair = {
+
+
+        MINISTER_50010 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5010
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1944.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50151 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5020
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1999.1.1
+                date < 1999.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50152 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5180
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1924.1.1
+                date < 1976.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50153 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5181
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1922.1.1
+                date < 1967.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50154 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5175
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1918.1.1
+                date < 1959.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50155 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5038
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1922.1.1
+                date < 1991.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50156 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5061
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1920.1.1
+                date < 1962.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50157 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5182
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1924.1.1
+                date < 1982.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50158 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5189
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1914.1.1
+                date < 1963.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50159 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5042
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50160 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5192
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1920.1.1
+                date < 1947.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50161 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5193
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1918.1.1
+                date < 1949.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50162 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5194
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1922.1.1
+                date < 1946.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50163 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5195
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1919.1.1
+                date < 1974.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50164 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5196
+
+            available = {
+                FA_minister_allowed = yes
+                date > 1923.1.1
+                date < 1984.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_FA
+            }
+        }
+
+
+        MINISTER_50165 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_M5197
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1921.1.1
+                date < 1966.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50203 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2735
+
+            available = {
+                SD_minister_allowed = yes
+                date > 1913.1.1
+                date < 1947.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_SD
+            }
+        }
+
+
+        MINISTER_50204 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2736
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1907.1.1
+                date < 1966.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50205 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2737
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1904.1.1
+                date < 1933.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50206 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2738
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1919.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50207 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9882
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1899.1.1
+                date < 1920.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_PA
+            }
+        }
+
+
+        MINISTER_50208 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2739
+
+            available = {
+                ML_minister_allowed = yes
+                date > 1911.1.1
+                date < 1963.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_ML
+            }
+        }
+
+
+        MINISTER_50322 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2779
+
+            available = {
+                SC_minister_allowed = yes
+                date > 1873.1.1
+                date < 1923.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_SC
+            }
+        }
+
+
+        MINISTER_50371 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L101342
+
+            available = {
+                PA_minister_allowed = yes
+                date > 1943.1.1
+                date < 1944.1.1
+            }
+
+            allowed = {
+                tag = JAP
+            }
+
+            traits = {
+                position_chiefofair
+                minister_PA
+            }
+        }
+
+    }
+
+
+}

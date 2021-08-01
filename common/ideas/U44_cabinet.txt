@@ -1,0 +1,352 @@
+ideas = {
+
+    headofstate = {
+
+
+        MINISTER_1035001 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_3539
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_headofstate
+                minister_NS
+            }
+        }
+
+    }
+
+    headofgovernment = {
+
+
+        MINISTER_1035002 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_3541
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_NS
+            }
+        }
+
+
+        MINISTER_1035014 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9925
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1930.1.1
+                date < 1950.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_headofgovernment
+                minister_NS
+            }
+        }
+
+    }
+
+    foreignminister = {
+
+
+        MINISTER_1035003 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_3539
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_foreignminister
+                minister_NS
+            }
+        }
+
+    }
+
+    armamentminister = {
+
+
+        MINISTER_1035004 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_7210
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_armamentminister
+                minister_NS
+            }
+        }
+
+
+        MINISTER_1035012 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_unknownminister
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1945.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_armamentminister
+                minister_NS
+            }
+        }
+
+
+        MINISTER_1035013 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_9924
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1930.1.1
+                date < 1970.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_armamentminister
+                minister_NS
+            }
+        }
+
+    }
+
+    ministerofsecurity = {
+
+
+        MINISTER_1035005 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_3544
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_NS
+            }
+        }
+
+
+        MINISTER_1035011 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_3542
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1970.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_ministerofsecurity
+                minister_NS
+            }
+        }
+
+    }
+
+    ministerofintelligence = {
+
+
+        MINISTER_1035006 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_3542
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_ministerofintelligence
+                minister_NS
+            }
+        }
+
+    }
+
+    chiefofstaff = {
+
+
+        MINISTER_1035007 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L813
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_chiefofstaff
+                minister_NS
+            }
+        }
+
+    }
+
+    chiefofarmy = {
+
+
+        MINISTER_1035008 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_L813
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_chiefofarmy
+                minister_NS
+            }
+        }
+
+    }
+
+    chiefofnavy = {
+
+
+        MINISTER_1035009 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2642
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_chiefofnavy
+                minister_NS
+            }
+        }
+
+    }
+
+    chiefofair = {
+
+
+        MINISTER_1035010 = {
+            cost = -1
+            removal_cost = -1
+            picture = MINISTER_2643
+
+            available = {
+                NS_minister_allowed = yes
+                date > 1933.1.1
+                date < 1964.1.1
+            }
+
+            allowed = {
+                tag = U44
+            }
+
+            traits = {
+                position_chiefofair
+                minister_NS
+            }
+        }
+
+    }
+
+
+}
